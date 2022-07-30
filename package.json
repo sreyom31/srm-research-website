@@ -1,7 +1,16 @@
 {
-  "name": "klestal-frontend",
+  "name": "srm-research-website",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "SRM international research conference website",
+  "main": "index.js",
+  "repository": "https://github.com/sreyom31/srm-research-website.git",
+  "author": "sreyom31 <sreyom31@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sreyom31/srm-research-website/issues"
+  },
+  "homepage": "https://github.com/sreyom31/srm-research-website.git#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
