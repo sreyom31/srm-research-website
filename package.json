@@ -10,7 +10,6 @@
   "bugs": {
     "url": "https://github.com/sreyom31/srm-research-website/issues"
   },
-  "homepage": "https://github.com/sreyom31/srm-research-website.git#readme",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
