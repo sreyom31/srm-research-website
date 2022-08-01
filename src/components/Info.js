@@ -1,10 +1,12 @@
 import React from 'react';
 import Prof from '../prof.jpg';
 import Data from '../data.json';
-// import Header from './Header';
+import Header from './Header';
+import Footer from './Footer';
 const Info = () => {
   return (
     <>
+      <Header />
       <div className="flex items-center justify-center  pt-10 mb-12 bg-fixed bg-center bg-cover bg-[url('./banner.jpg')]  h-screen ">
         <div>
           <div className=" grid grid-cols-3 gap-10 ">
@@ -23,7 +25,7 @@ const Info = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white">
+      <div className="bg-white pb-24 md:pb-28">
         {Data.map((post) => {
           return (
             <div key={true}>
@@ -98,6 +100,7 @@ const Info = () => {
             </div>
           );
         })}
+        <Footer />
       </div>
     </>
   );
