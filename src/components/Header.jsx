@@ -13,35 +13,30 @@ const Header = () => {
     }
 
   return (
-    <div className='fixed w-full absolute top-0 text-white flex justify-between p-4 items-center bg-black '>
-
-        <div className='text-2xl font-bold text-center uppercase'>
-            <h1> SRM <span className='block text-4xl'>ICIoT - 2023</span></h1>
+    <div className='fixed w-full absolute top-0 text-white flex justify-between p-4 items-center bg-sky-600'>
+        <div className='text-xl font-bold text-center'>
+            <h1> SRM <span className='block text-2xl'>ICIoT - 2023</span></h1>
         </div> 
 
         <nav>
-
             <div className='absolute right-6 md:hidden top-6 scale-150'>
-                <MenuOutlined onClick={showMenu} className='scale-150 cursor-pointer'/>
+                <MenuOutlined onClick={showMenu} className='scale-100 cursor-pointer'/>
             </div>
                 <ul className='hidden md:flex gap-8 p-6 uppercase'>
-                    <li className="text-gray-300 hover:bg-gray-700 hover:text-white active:text-white px-4 py-2 rounded-md font-medium">
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/'>Home</Link>
                     </li>
-                    <li className="text-gray-300 hover:bg-gray-700 hover:text-white active:text-white px-4 py-2 rounded-md font-medium">
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/'>Conferences</Link>
                     </li>
-                    <li className="text-gray-300 hover:bg-gray-700 hover:text-white active:text-white px-4 py-2 rounded-md font-medium">
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/speakers'>Speakers</Link>
                     </li>
-                    <li className="text-gray-300 hover:bg-gray-700 hover:text-white active:text-white px-4 py-2 rounded-md font-medium">
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/'>Gallery</Link>
                     </li>
-                    <li className="text-gray-300 hover:bg-gray-700 hover:text-white active:text-white px-4 py-2 rounded-md font-medium">
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/'>Register</Link>
-                    </li>
-                    <li className="text-gray-300 hover:bg-gray-700 hover:text-white active:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/'>Login</Link>
                     </li>
                 </ul>
 
