@@ -1,0 +1,120 @@
+body {
+  background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(30, 31, 22, 0.692)),
+    url('https://wallpaperaccess.com/full/1560128.jpg');
+  background-size: 100vw;
+  background-attachment: fixed;
+}
+.header {
+  /* margin-top: 200px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60vh;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.imgheader {
+  justify-content: center;
+  width: 400px;
+  height: 150px;
+}
+
+.container {
+  width: 30vw;
+  font-size: 32px;
+  justify-items: center;
+}
+
+.container h2 {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(105, 1, 1);
+  transition: 5s;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 1px 0 rgb(214, 112, 112), 0 2px 0 rgb(214, 112, 112),
+    0 1px 0 rgb(214, 112, 112), 0 2px 0 rgb(214, 112, 112),
+    0 1px 0 rgb(214, 112, 112), 0 2px 0 rgb(214, 112, 112),
+    0 1px 0 rgb(214, 112, 112), 0 2px 0 rgb(214, 112, 112),
+    0 1px 0 rgb(214, 112, 112), 0 2px 0 rgb(214, 112, 112),
+    0 1px 0 rgb(214, 112, 112), 0 2px 0 rgb(214, 112, 112),
+    0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.About {
+  background-color: black;
+}
+
+.About div {
+  margin: 0 18vw;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  padding: 50px 0;
+}
+
+.aboutext {
+  font-size: 45px;
+  font-weight: 450;
+}
+
+.AboutComp {
+  color: rgb(235, 100, 100);
+}
+
+.AboutComp div {
+  margin: 0 18vw;
+  text-align: justify;
+  padding: 50px 0;
+}
+
+.aboutcomtext {
+  font-size: 45px;
+  font-weight: 450;
+  text-align: right;
+}
+
+a {
+  color: aqua;
+}
+
+.Theme {
+  background-color: black;
+}
+
+.Theme div {
+  margin: 0 18vw;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  padding: 50px 0;
+}
+
+.themetext {
+  font-size: 45px;
+  font-weight: 450;
+  text-align: left;
+}
+
+@media (max-width: 760px) {
+  .header {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .imgheader {
+    width: 200px;
+    height: 100px;
+  }
+
+  .container {
+    width: 100vw;
+  }
+
+  .aboutext,
+  .themetext,
+  .aboutcomtext {
+    font-size: 20px;
+  }
+}
