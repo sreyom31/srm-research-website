@@ -32,7 +32,7 @@ const Header = () => {
                         <Link to='/'>Conferences</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-gray-700 hover:text-white active:text-white px-4 py-2 rounded-md font-medium">
-                        <Link to='/'>Speakers</Link>
+                        <Link to='/speakers'>Speakers</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-gray-700 hover:text-white active:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/'>Gallery</Link>

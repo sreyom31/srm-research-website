@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className='bg-black w-full mx-auto fixed bottom-0 text-gray-300'>
+    <div className='bg-black w-full mx-auto  bottom-0 text-gray-300'>
       <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center pt-4 pb-4 text-gray-400 text-medium pb-8">
         <span>© Copyright SRM ICIot 2022. All rights reserved.</span>
