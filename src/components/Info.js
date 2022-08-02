@@ -1,5 +1,5 @@
 import React from 'react';
-import Prof from '../prof.jpg';
+import Prof from '../Prof.png';
 import Data from '../data.json';
 import Header from './Header';
 import Footer from './Footer';
@@ -8,12 +8,13 @@ const Info = () => {
     <>
       <Header />
       <div className="flex items-center justify-center  pt-10 mb-12 bg-fixed bg-center bg-cover bg-[url('./banner.jpg')]  h-screen ">
-        <div>
+        <div className="mt-25 md:mt-0 ">
           <div className=" grid grid-cols-3 gap-10 ">
             <img
               src={Prof}
-              width="200"
-              className="col-span-full sm:col-span-1 mx-10 md:mx-10"
+              width="300"
+              height="50"
+              className="col-span-full sm:col-span-1 mt-10 mx-10 md:mx-10"
             ></img>
 
             <div className="text-center font-bold text-4xl leading-loose uppercase col-span-full sm:col-span-2 px-5 ">
