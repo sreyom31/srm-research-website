@@ -25,7 +25,7 @@ const Info = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white pb-24 md:pb-28">
+      <div className="bg-white ">
         {Data.map((post) => {
           return (
             <div key={true}>
@@ -40,10 +40,10 @@ const Info = () => {
                       className="rounded-md"
                     />
                     <div className="text-center items-center">
-                      <p className="pl-10 pt-2 text-justify text-lg font-bold">
+                      <p className="pl-10 pt-2 text-justify text-lg font-bold ">
                         {post.title1}
                       </p>
-                      <p className="pl-10 pt-2  text-blue-500 font-bold text-justify text-lg ">
+                      <p className="pl-10 pt-2 text-[#3D72A4] font-bold text-justify text-lg ">
                         PROFILE
                       </p>
                     </div>
@@ -62,8 +62,8 @@ const Info = () => {
                   <div className="col-span-1"></div>
                 </div>
               </div>
-              <div className=" bg-gray-200">
-                <div className="flex justify-center m-5 p-5">
+              <div className="bg-[#3D72A4]">
+                <div className="flex justify-center m-5 mb-0 p-5 ">
                   <div className="  grid grid-cols-9 gap-4  text-sm">
                     <div className="col-span-1"></div>
                     <div className="col-span-full  md:col-span-2 text-right">
@@ -77,7 +77,7 @@ const Info = () => {
                         <p className="pt-2 text-justify text-lg font-bold">
                           {post.title2}
                         </p>
-                        <p className="pl-10 pt-2  text-blue-500 font-bold text-justify text-lg ">
+                        <p className="pl-10 pt-2  text-white font-bold text-justify text-lg ">
                           PROFILE
                         </p>
                       </div>
