@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div className='bg-sky-600 w-full mx-auto  bottom-0 text-gray-300'>
       <div
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 justify-center text-center pt-4 pb-4 text-white text-medium pb-8">
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center pt-4 pb-3 text-white text-medium pb-8">
         <span>© Copyright SRM ICIot 2022. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
         <div className='flex justify-center md:w-[75%] text-white'>
