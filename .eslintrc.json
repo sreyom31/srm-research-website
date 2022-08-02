@@ -17,12 +17,8 @@
   },
   "plugins": ["react"],
   "rules": {
-<<<<<<< HEAD
-    "react/react-in-jsx-scope": "off",
-=======
     "react/react-in-jsx-scope": "off",  
     "react/prop-types": "off",
->>>>>>> 6bb3805b912781cc8b6362c5ae54073b73b5fa2b
     "prettier/prettier": [
       "error",
       {
