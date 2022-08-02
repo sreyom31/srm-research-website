@@ -25,7 +25,7 @@ const Info = () => {
           </div>
         </div>
       </div>
-      <div className="bg-white ">
+      <div className="bg-navy ">
         {Data.map((post) => {
           return (
             <div key={true}>
@@ -43,7 +43,7 @@ const Info = () => {
                       <p className="pl-10 pt-2 text-justify text-lg font-bold ">
                         {post.title1}
                       </p>
-                      <p className="pl-10 pt-2 text-[#3D72A4] font-bold text-justify text-lg ">
+                      <p className="pl-10 pt-2 text-blue-200 font-bold text-justify text-lg ">
                         PROFILE
                       </p>
                     </div>
@@ -62,7 +62,7 @@ const Info = () => {
                   <div className="col-span-1"></div>
                 </div>
               </div>
-              <div className="bg-[#3D72A4]">
+              <div className=" bg-blue-200">
                 <div className="flex justify-center m-5 mb-0 p-5 ">
                   <div className="  grid grid-cols-9 gap-4  text-sm">
                     <div className="col-span-1"></div>
