@@ -1,7 +1,7 @@
 import React from 'react';
 const Event = ({ id }) => {
   return (
-    <div className="flex flex-wrap justify-start mt-12 mb-10">
+    <div className="flex flex-wrap justify-start mt-12 mb-40 md:mb-32">
       {id.map((item) => {
         return (
           <div
@@ -15,11 +15,11 @@ const Event = ({ id }) => {
             </p>
             <a
               href={item.url}
-              className="w-[60vw] md:w-[50vw] text-xs lg:text-lg px-2 text-blue-500"
+              className="w-[50vw] md:w-[50vw] text-xs lg:text-lg px-2 text-blue-500"
             >
               {item.title}
             </a>
-            <p className="w-[20vw] md:w-[10vw] text-xs lg:text-lg px-2">
+            <p className="w-[25vw] md:w-[10vw] text-xs lg:text-lg px-2">
               {item.location}
             </p>
           </div>
