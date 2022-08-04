@@ -2,24 +2,22 @@ import React from 'react';
 import pic1 from '../images/Procediabook.png';
 const Submission = () => {
   return (
-    <>
-      <h1 className="uppercase font-bold underline text-2xl text-center m-5 leading-loose">
-        Paper Submission
-      </h1>
-      <div className=" grid grid-cols-6 gap-4">
-        <div className="col-span-1"></div>
-        <div className="col-span-full m-5 items-center-center md:col-span-2">
+    <div className="bg-sky-200">
+      <div className=" grid grid-cols-4 gap-4">
+        <div className=" md:col-span-1"></div>
+        <div className="col-span-full rounded  m-5 bg-white items-center-center md:col-span-2">
+          <h1 className="uppercase font-bold  text-4xl text-center m-5 leading-loose">
+            Paper Submission
+          </h1>
           <img src={pic1} width="100%" />
           <div className="flex">
-            <button className="p-3 ml-5 px-5 font-bold bg-slate-900 text-white text-center rounded">
+            <button className="p-3 m-7 px-10 font-bold bg-slate-900 text-white text-center rounded-full">
               Download Templates
             </button>
-            <button className="p-3 px-5 ml-5 font-bold bg-sky-200  text-center rounded">
+            <button className="p-3 px-10 m-7 font-bold bg-red-700 text-white text-center rounded-full">
               Paper Submission
             </button>
           </div>
-        </div>
-        <div className="col-span-full md:col-span-2">
           <ol>
             <li className="font-bold px-5  text-lg">
               Guidelines for Paper Submission
@@ -99,7 +97,7 @@ const Submission = () => {
         </div>
         <div className="col-span-1"></div>
       </div>
-    </>
+    </div>
   );
 };
 
