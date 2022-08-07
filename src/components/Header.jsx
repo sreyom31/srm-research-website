@@ -33,6 +33,9 @@ const Header = () => {
                         <Link to='/speakers'>Speakers</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
+                <Link to='/committee'>Committee</Link>
+            </li>
+                    <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                         <Link to='/'>Gallery</Link>
                     </li>
                     <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">

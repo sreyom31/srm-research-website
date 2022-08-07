@@ -16,3 +16,7 @@ function App() {
 }
 
 export default App;
+
+
+// "build": "react-scripts build",
+//     "test": "react-scripts test",
