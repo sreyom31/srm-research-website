@@ -34,7 +34,7 @@ function Nav() {
                                     </a>*/}
 
                   <a
-                    href="Committee"
+                    href="/committee"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Committee
@@ -151,14 +151,14 @@ function Nav() {
             <div className="md:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
-                  href="#"
+                  href="/home"
                   className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
-                  href="#"
+                  href="/callforpaper"
                   className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Call for Papers
@@ -172,7 +172,7 @@ function Nav() {
                                 </a> */}
 
                 <a
-                  href="#"
+                  href="/committee"
                   className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Committee
@@ -221,7 +221,7 @@ function Nav() {
                                 </a>*/}
 
                 <a
-                  href="#"
+                  href="/contact"
                   className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
