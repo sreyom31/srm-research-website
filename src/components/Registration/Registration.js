@@ -7,7 +7,7 @@ const Registration = () => {
     <div>
       <Header />
       <div className="mt-32   w-screen h-fit">
-        <h1 className="text-4xl pt-12 mx-52 h-[15vh] font-bold">
+        <h1 className="text-4xl pt-12 mx-auto h-[15vh] font-bold text-center">
           Registration
         </h1>
         <div className="flex ">
