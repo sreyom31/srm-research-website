@@ -8,6 +8,7 @@ import Info from './components/Info';
 import Submission from './components/Submission';
 import Registration from './components/Registration/Registration';
 import Homepage from './pages/Homepage';
+import CallForPaper from './components/CallForPaper/CallForPaper';
 ReactDOM.render(
   <Router>
     <Routes>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <Route path='/submission' element={<Submission/>}/>
       <Route path="/registration" element={<Registration/>}/>
       <Route path="/home" element={<Homepage/>}/>
+      <Route path="/callforpaper" element={<CallForPaper/>}/>
     </Routes>
   </Router>,
     document.getElementById('root')
