@@ -14,7 +14,7 @@ const Header = () => {
         <img src={daytonlogo} className="w-[20%]"></img>
       </div>
       <br />
-      <div className="container text-center">
+      <div className="container-fluid text-center">
         <div className="w-17/20 mx-auto font-bold">
           <p className="h-18 text-2xl text-red-900">
             International Conference on Internet of Things
