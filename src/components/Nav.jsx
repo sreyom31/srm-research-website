@@ -27,15 +27,15 @@ function Nav() {
                                         Call for Papers
                                     </a>
 
-                                    <a
+                                    {/*<a
                                         href="#"
                                         className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Important Dates
-                                    </a>
+                                    </a>*/}
 
                                     <a
-                                        href="#"
+                                        href="Committee"
                                         className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Committee
@@ -56,7 +56,7 @@ function Nav() {
                                     </a>
 
                                     <a
-                                        href="/"
+                                        href="/gallery"
                                         className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Gallery
@@ -166,12 +166,12 @@ function Nav() {
                                     Call for Papers
                                 </a>
 
-                                <a
+                                {/* <a
                                     href="#"
                                     className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Important Dates
-                                </a>
+                                </a> */}
 
                                 <a
                                     href="#"
@@ -195,7 +195,7 @@ function Nav() {
                                 </a>
 
                                 <a
-                                    href="#"
+                                    href="/gallery"
                                     className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Gallery
@@ -215,12 +215,12 @@ function Nav() {
                                     Registration
                                 </a>
 
-                                <a
+                                {/* <a
                                     href="#"
                                     className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                 >
                                     Sponsorship
-                                </a>
+                                </a>*/}
 
                                 <a
                                     href="#"
