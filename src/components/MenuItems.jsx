@@ -18,7 +18,7 @@ const MenuItems = ({ showMenu, active }) => {
                 <Link to='/'>Speakers</Link>
             </li>
             <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
-                <Link to='/'>Committee</Link>
+                <Link to='/Committee'>Committee</Link>
             </li>
             <li className="text-gray-300 hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md font-medium">
                 <Link to='/'>Gallery</Link>

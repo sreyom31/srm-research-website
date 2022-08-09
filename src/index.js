@@ -8,11 +8,13 @@ import Info from './components/Info';
 import Submission from './components/Submission';
 import Registration from './components/Registration/Registration';
 import Homepage from './pages/Homepage';
+import Committee from './components/committee';
 ReactDOM.render(
   <Router>
     <Routes>
       <Route path='/' element={<App/>}/>
       <Route path='/speakers' element={<Info/>}/>
+      <Route path='/committee' element={<Committee/>}/>
       <Route path='/submission' element={<Submission/>}/>
       <Route path="/registration" element={<Registration/>}/>
       <Route path="/home" element={<Homepage/>}/>
