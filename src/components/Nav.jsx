@@ -35,7 +35,7 @@ function Nav() {
                                     </a>*/}
 
                                     <a
-                                        href="#"
+                                        href="Committee"
                                         className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Committee
