@@ -32,9 +32,9 @@ const Registration = () => {
             </h1>
             {data.map((item) => {
               return (
-                <div className="bg-white text-black" key={item.id}>
+                <div className="h-auto bg-white text-black" key={item.id}>
                   <div className="w-[80vw] md:w-[60vw] text-left text-semibold p-2 border-2">
-                    <h1>{item.title}</h1>
+                    <h2>{item.title}</h2>
                   </div>
                   {item.prices.map((price) => {
                     return (
