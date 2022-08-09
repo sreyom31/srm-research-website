@@ -1,0 +1,23 @@
+.contact-container {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 47px;
+  margin-bottom: 70px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  margin-top: 20px;
+  color: rgb(21, 148, 142);
+  font-size: 30px;
+}
