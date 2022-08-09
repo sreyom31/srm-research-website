@@ -76,12 +76,12 @@ function Nav() {
                                         Registration
                                     </a>
 
-                                    <a
+                                    {/* <a
                                         href="#"
                                         className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Sponsorship
-                                    </a>
+                                    </a> */}
 
                                     <a
                                         href="#"
