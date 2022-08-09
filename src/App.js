@@ -2,14 +2,14 @@
 import './App.scss';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
-import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
+import Homepage from './components/Homepage.js';
 
 function App() {
   //  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
   return (
     <div className="App">
       <Header />
-      <UpcomingEvents />
+      <Homepage />
       <Footer />
     </div>
   );

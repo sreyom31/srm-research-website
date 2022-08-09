@@ -1,7 +1,7 @@
 import React from 'react';
 const Event = ({ id }) => {
   return (
-    <div className="flex flex-wrap justify-start mt-12 mb-40 md:mb-32">
+    <div className="flex flex-wrap justify-start mt-12 pb-8">
       {id.map((item) => {
         return (
           <div

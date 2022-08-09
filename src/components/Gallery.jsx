@@ -58,7 +58,7 @@ const Gallery = () => {
       <Header />
       <div ref={slideRef} className="w-full select-none relative">
         <div className="aspect-w-16 aspect-h-9"></div>
-        <img src={images[currentIndex]} />
+        <img src={images[currentIndex]} style={{ width: '100%' }} />
         <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
           <button
             className="bg-black text-white p-1 rounded-full bg-opacity-50 cursor-pointer hover:bg-opacity-100 transition"

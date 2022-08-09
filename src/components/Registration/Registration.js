@@ -6,7 +6,7 @@ const Registration = () => {
   return (
     <div>
       <Header />
-      <div className="mt-32   w-screen h-fit">
+      <div className="mt-8 w-screen h-fit">
         <h1 className="text-4xl pt-12 mx-auto h-[15vh] font-bold text-center">
           Registration
         </h1>
@@ -18,7 +18,7 @@ const Registration = () => {
           </button>
         </div>
         <div className="mb-24">
-          <div className="mx-auto w-[80vw] md:w-[60vw] mt-24">
+          <div className="mx-auto w-[80vw] md:w-[60vw] mt-16">
             <h1 className="text-[#0284c7] text-2xl font-bold">
               Registration Fees
             </h1>

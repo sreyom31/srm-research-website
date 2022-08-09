@@ -8,21 +8,23 @@ function Contacts() {
     <>
       <Header />
       <div>
-        <h1>Contact us</h1>
+        <p className="mt-8 text-center text-4xl font-bold">Contact us</p>
         <div className="contact-container">
-          <h2>For Enquiry:</h2>
-          <h3>NAME XXXXXX</h3>
-          <h4>Chairperson</h4>
-          <h4>School of Computer Science,</h4>
-          <h4>SRM Institute of Science and Technology,</h4>
-          <h4>Kattankulathur</h4>
-          <h4>Chennai-603203</h4>
-          <h4>
+          <p className="pb-2 text-3xl font-semibold">For Enquiry:</p>
+          <p className="pb-2 text-2xl">Name -----</p>
+          <p className="pb-2 text-2xl">Chairperson</p>
+          <p className="pb-2 text-2xl">School of Computer Science,</p>
+          <p className="pb-2 text-2xl">
+            SRM Institute of Science and Technology,
+          </p>
+          <p className="pb-2 text-2xl">Kattankulathur</p>
+          <p className="pb-2 text-2xl">Chennai-603203</p>
+          <p className="pb-2 text-2xl">
             <strong>Email id:</strong> XXXXXXXX@srmist.edu.in
-          </h4>
-          <h4>
+          </p>
+          <p className="pb-2 text-2xl">
             <strong>Whatsapp:</strong> XXXXXXXXXXX
-          </h4>
+          </p>
         </div>
       </div>
       <Footer />

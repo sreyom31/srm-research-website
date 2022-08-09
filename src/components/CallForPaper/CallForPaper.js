@@ -6,7 +6,7 @@ const CallForPaper = () => {
   return (
     <div className="">
       <Header />
-      <div className=" mt-32 w-[80vw] md:w-[60vw] mx-auto h-fit mb-24">
+      <div className=" mt-8 w-[80vw] md:w-[60vw] mx-auto h-fit mb-24">
         <h1 className="overflow-hidden text-4xl pt-12 h-[15vh] font-semibold mx-auto">
           Call For Papers
         </h1>

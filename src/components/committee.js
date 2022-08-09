@@ -8,26 +8,20 @@ const committee = () => {
   return (
     <>
       <div>
-        <Header >
-        </Header>
+        <Header></Header>
       </div>
 
-
       <div className="mb-24">
-        <div className="mx-auto w-[80vw] md:w-[60vw] mt-24">
-          {/* <h1 className="text-[#0284c7] text-2xl font-bold">
-            Committees
-          </h1> */}
+        <div className="mx-auto w-[80vw] md:w-[60vw] mt-16">
+          <h1 className="text-[#0284c7] text-3xl font-bold">Committees</h1>
         </div>
-        <div className=" mb-24 mx-auto w-[80vw] md:w-[60vw] mt-12 text-2x1 mt-24 md:text-lg bg-[#0284c7] text-white text-center font-bold ">
-          <h1 className="w-[80vw] md:w-[60vw]  p-2">
-            Committee Members
-          </h1>
+        <div className=" mb-24 mx-auto w-[80vw] md:w-[60vw] text-2x1 mt-12 md:text-lg bg-[#0284c7] text-white text-center font-bold ">
+          <h1 className="w-[80vw] md:w-[60vw] p-4">Committee Members</h1>
           {cdata.map((item) => {
             return (
               <div className="bg-white text-black" key={item.id}>
                 <div className="w-[80vw] md:w-[60vw] text-left text-semibold p-2 border-2">
-                  <h1>{item.title}</h1>
+                  <h1 className="m-0 text-2xl">{item.title}</h1>
                 </div>
                 {item.members.map((member) => {
                   return (
@@ -36,7 +30,6 @@ const committee = () => {
                       key={member.name}
                     >
                       <p className="w-[40vw] md:w-[60vw]">{member.name}</p>
-
                     </div>
                   );
                 })}
@@ -48,8 +41,6 @@ const committee = () => {
       <div>
         <Footer></Footer>
       </div>
-
-
     </>
   );
 };

@@ -12,6 +12,7 @@ import CallForPaper from './components/CallForPaper/CallForPaper';
 import Committee from './components/committee';
 import Gallery from './components/Gallery';
 import Contacts from './components/Contacts';
+import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
 
 ReactDOM.render(
   <Router>
@@ -22,7 +23,7 @@ ReactDOM.render(
       <Route path="/committee" element={<Committee />} />
       <Route path="/submission" element={<Submission />} />
 
-      <Route path="/submission" element={<Submission />} />
+      <Route path="/conferences" element={<UpcomingEvents />} />
       <Route path="/gallery" element={<Gallery />} />
 
       <Route path="/registration" element={<Registration />} />

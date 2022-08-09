@@ -1,6 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
+import { Link } from 'react-router-dom';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,19 +13,19 @@ function Nav() {
             <div className="flex items-center">
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a
-                    href="/home"
+                  <Link
+                    to="/home"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
-                  </a>
+                  </Link>
 
-                  <a
-                    href="callforpaper"
+                  <Link
+                    to="/callforpaper"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Call for Papers
-                  </a>
+                  </Link>
 
                   {/*<a
                                         href="#"
@@ -33,61 +34,61 @@ function Nav() {
                                         Important Dates
                                     </a>*/}
 
-                  <a
-                    href="/committee"
+                  <Link
+                    to="/committee"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Committee
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/"
+                  <Link
+                    to="/conferences"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Conferences
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/speakers"
+                  <Link
+                    to="/speakers"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Speakers
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/gallery"
+                  <Link
+                    to="/gallery"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Gallery
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/submission"
+                  <Link
+                    to="/submission"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Submission
-                  </a>
+                  </Link>
 
-                  <a
-                    href="/registration"
+                  <Link
+                    to="/registration"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Registration
-                  </a>
+                  </Link>
 
-                  {/* <a
-                                        href="#"
+                  {/* <Link
+                                        to="#"
                                         className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Sponsorship
-                                    </a> */}
+                                    </Link> */}
 
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
