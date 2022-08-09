@@ -7,7 +7,7 @@ const UpcomingEvents = () => {
   const [active, setActive] = useState(0);
   return (
     <div className="h-[100vh]">
-      <div className="w-screen h-[25vh] mt-20 md:mt-28 text-center bg-black ">
+      <div className="w-screen h-[25vh] mt-20  text-center bg-black ">
         <h2 className="text-3xl pt-12 overflow-hidden text-white font-bold">
           Upcoming Conferences
         </h2>
