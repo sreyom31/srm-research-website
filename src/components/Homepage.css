@@ -9,13 +9,16 @@ body {
 
 .About div {
   margin: 0 18vw;
-  text-align: justify;
   padding: 50px 0;
 }
 
 .aboutext {
   font-size: 45px;
   font-weight: 450;
+}
+
+.About p {
+  text-align: justify;
 }
 
 .imptable {
@@ -26,24 +29,33 @@ body {
 table {
   width: px;
   margin: 80px 0;
+  border: 1px solid #ccc;
+  background-color: yellow;
+  border-collapse: collapse;
 }
 
 th,
 td {
   text-align: center;
+  border: none;
 }
 
 th {
   font-size: 30px;
-  background-color: rgb(134, 11, 11);
-  border: 2px solid black;
-  color: rgb(248, 248, 248);
 }
 
 td {
-  border: 1px solid;
   width: 250px;
   height: 55px;
+}
+
+.brochure_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 25px;
+  color: red;
+  text-decoration: underline;
 }
 
 @media (max-width: 760px) {
