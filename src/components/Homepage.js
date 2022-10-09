@@ -33,33 +33,32 @@ function Homepage() {
       </div>
       <div className="About">
         <div>
-          <h2 className="aboutext">About ICIoT 2022 Conference</h2>
+          <h2 className="aboutext ">About ICIoT 2022 Conference</h2>
           <br />
+          <p className="pb-5">
+            The Department of Computing Technologies, SRM Institute of Science
+            and Technology, Chennai, India is planning to conduct the 4th
+            edition of International Conference on Internet of Things (ICIoT
+            2023) from April 5th to 7th, 2023 at the Kattankulathur campus,
+            Chennai. The conference aims to provide an outstanding opportunity
+            for both academic and industrial communities to share their
+            knowledge on new trends and challenges in emerging technologies and
+            progress in standards on topics relevant to todays fast moving
+            technology trends into the Internet of Things. It also provides a
+            platform for the discussion of new results in the field of Internet
+            of things. The Conference will have different themes for each day
+            and each theme contains different thought-provoking sessions.
+          </p>
           <p>
-            The School of Computing, SRM Institute of Science and Technology,
-            Chennai, India conducted the 3rd edition of International Conference
-            on Internet of Things (ICIOT 2022) from April 5th to 7th, 2022 in
-            the Kattankulathur campus, Chennai. The conference aimed to provide
-            an outstanding opportunity for both academic and industrial
-            communities to address new trends and challenges in emerging
-            technologies and progress in standards on topics relevant todays
-            fast-moving technology trends in to the Internet of Things. It also
-            provided a platform for the discussion of new results in the field
-            of Internet of things. Different themes are addressed on each day
-            and each theme contains different thought-provoking sessions. The
-            first day sessions were meant to focus on application of IoT in the
-            field of Computer Science and Information Technology. On the second
-            day Startups and Entrepreneurs shared their success stories and
-            experiences in implementing IoT and few sessions were focused on
-            Industrial IoT. Government initiatives like Digital India, Smart
-            Cities, where top bureaucrats from various departments were planned
-            on the themes during the last day of the Conference. Researchers,
-            Faculty, Students and Practitioners were presented their findings
-            and ideas during the Paper presentation session on all the three
-            days. We have received 256 papers including authors from countries
-            like Australia, Turkey, Lithuania, and Saudi Arabia. The conference
-            is inaugurated on 5th April 2022 with the dignitaries from SRM IST,
-            DST, DRDO, Australia, USA, Canada, Singapore, and Ireland.
+            The main focus of sessions on day one will be the applications of
+            IoT for Home, City and Education. The second day sessions will focus
+            on the applications of IoT in Manufacturing and Agriculture. The
+            third day sessions will be about IoTs contribution for improvements
+            in Transportation and Healthcare. Faculty, Students and Researchers
+            will be presenting their ideas and findings, during the Paper
+            Presentation sessions on all the three days. Apart from that
+            workshops will be conducted with their themes being in line with the
+            topics of the day.
           </p>
         </div>
       </div>
