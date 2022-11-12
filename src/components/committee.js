@@ -2,7 +2,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import { cdata } from './cdata';
+import cdata from './cdata';
 
 const committee = () => {
   return (
@@ -23,7 +23,7 @@ const committee = () => {
                 <div className="w-[80vw] md:w-[60vw] text-left text-semibold p-2 border-2">
                   <h1 className="m-0 text-2xl">{item.title}</h1>
                 </div>
-                {item.members.map((member) => {
+                {item && item.members && item.members.map((member) => {
                   return (
                     <div
                       className="flex p-2 font-normal text-left border-2"

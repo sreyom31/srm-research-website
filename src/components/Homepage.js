@@ -8,9 +8,9 @@ function Homepage() {
     <>
       <Header />
       <div className="brochure_div">
-        <a className="brochure" href="#">
+        {/* <a className="brochure" href="#">
           View Brochure
-        </a>
+        </a> */}
       </div>
       <div className="imptable">
         <table>
@@ -18,28 +18,36 @@ function Homepage() {
             <th colSpan="2">IMPORTANT DATES</th>
           </tr>
           <tr>
-            <td>Final Paper Submission Deadline</td>
-            <td>DD MM YYYY</td>
+            <td>Paper Submission Deadline</td>
+            <td>28th Feb 2023</td>
+          </tr>
+          <tr>
+            <td>Notification of Acceptance</td>
+            <td>31st March 2023</td>
+          </tr>
+          <tr>
+            <td>Revised Paper Submission Deadline</td>
+            <td>12th April 2023</td>
           </tr>
           <tr>
             <td>Registration Deadline</td>
-            <td>DD MM YYYY</td>
+            <td>20th April 2023</td>
           </tr>
           <tr>
             <td>Conference Date</td>
-            <td>DD MM YYYY</td>
+            <td>26th-28th April 2023</td>
           </tr>
         </table>
       </div>
       <div className="About">
         <div>
-          <h2 className="aboutext ">About ICIoT 2022 Conference</h2>
+          <h2 className="aboutext ">About ICIoT 2023 Conference</h2>
           <br />
           <p className="pb-5">
             The Department of Computing Technologies, SRM Institute of Science
             and Technology, Chennai, India is planning to conduct the 4th
             edition of International Conference on Internet of Things (ICIoT
-            2023) from April 5th to 7th, 2023 at the Kattankulathur campus,
+            2023) from April 26th to 28th, 2023 at the Kattankulathur campus,
             Chennai. The conference aims to provide an outstanding opportunity
             for both academic and industrial communities to share their
             knowledge on new trends and challenges in emerging technologies and
