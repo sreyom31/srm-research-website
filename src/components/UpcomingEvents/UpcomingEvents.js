@@ -10,13 +10,13 @@ const UpcomingEvents = () => {
       <div className="pb-8">
         <div className="w-screen h-[25vh] text-center bg-black ">
           <h2 className="text-3xl pt-12 overflow-hidden text-white font-bold">
-            Past Conferences
+            ICIoT Chronical
           </h2>
           <div className="flex flex-wrap justify-center mt-4 ">
             <Link className="text-md text-blue-400 hover:text-white" to="/home">
               Home
             </Link>
-            <p className="text-md text-white"> / Past Conferences</p>
+            <p className="text-md text-white"> / ICIoT Chronical</p>
           </div>
         </div>
         <div className="w-screen h-fit mt-16 md:mt-24 px-2 md:px-[15vw]">

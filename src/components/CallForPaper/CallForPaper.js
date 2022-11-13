@@ -23,14 +23,14 @@ const CallForPaper = () => {
             {data.map((item) => {
               return (
                 <div className="mx-4 mt-8" key={item.id}>
-                  <h3 className="bg-[#990000] w-[70vw] md:w-[20vw] px-4 py-2 text-md md:text-lg text-center text-white">
+                  <h3 className="bg-[#990000] w-[70vw] md:w-[30vw] px-4 py-2 text-md md:text-lg text-center text-white">
                     {item.title}
                   </h3>
                   <div className="mt-4">
                     {item.desc.map((item) => {
                       return (
                         <div className="justify-evenly" key={item.id}>
-                          <h2 className="w-[60vw] md:w-[20vw] text-md md:text-lg">
+                          <h2 className="w-[60vw] md:w-[30vw] text-md md:text-lg">
                             {item.name}
                           </h2>
                         </div>
