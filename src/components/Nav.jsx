@@ -7,7 +7,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-sky-600">
+          <nav className="bg-[#20a7d1]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -15,14 +15,14 @@ function Nav() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
                     to="/home"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
                   </Link>
 
                   <Link
                     to="/callforpaper"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Call for Papers
                   </Link>
@@ -36,56 +36,56 @@ function Nav() {
 
                   <Link
                     to="/committee"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Committee
                   </Link>
 
                   <Link
                     to="/conferences"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                      className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Conferences
                   </Link>
 
                   {/* <Link
                     to="/speakers"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Speakers
                   </Link> */}
 
                   <Link
                     to="/gallery"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                      className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Gallery
                   </Link>
 
                   {/* <Link
                     to="/submission"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Submission
                   </Link> */}
 
                   {/* <Link
                     to="/registration"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Registration
                   </Link> */}
 
                   {/* <Link
                                         to="#"
-                                        className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Sponsorship
                                     </Link> */}
 
                   <Link
                     to="/contact"
-                    className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                      className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
                   </Link>
