@@ -48,12 +48,12 @@ function Nav() {
                     Conferences
                   </Link>
 
-                  <Link
+                  {/* <Link
                     to="/speakers"
                     className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Speakers
-                  </Link>
+                  </Link> */}
 
                   <Link
                     to="/gallery"

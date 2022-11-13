@@ -1,13 +1,14 @@
 export const data = [
   {
     id: 1,
-    month: '2021',
+    month: '2022',
+    url: 'https://drive.google.com/file/d/1oIkpTcQAar13KU4TJ3X7HukUQfLgP6eu/view?usp=sharing',
     conferences: [
       {
         index: 0,
         date: '31st July, 2022',
         title: 'National Conference on Bigdata Analysis (NCBA-22)',
-        url: 'https://nationalconference.in/event/index.php?id=1630697',
+        // url: '../Files/ICIoT 2022 Conference Report_Final.pdf',
         location: 'Kolkata',
       },
     ],
@@ -15,13 +16,14 @@ export const data = [
   {
     id: 2,
     month: '2020',
+    url: 'https://drive.google.com/file/d/1Nc9Vl8BM_ou3SAOKEnrToipaa3ESO9w6/view?usp=sharing',
     conferences: [
       {
         index: 0,
         date: '7th August, 2022',
         title:
           'National Conference on Advanced Computer Science and Information Technology (NCACSI-22)',
-        url: 'https://nationalconference.in/event/index.php?id=1630841',
+        // url: '../Files/ICIOT20 Proceeding.pdf',
         location: 'Bangalore',
       },
     ],
@@ -29,13 +31,14 @@ export const data = [
   {
     id: 3,
     month: '2019',
+    url: 'https://drive.google.com/file/d/1auWDqQx40ufV0EF12BMf_AxvBRGn7OX7/view?usp=sharing',
     conferences: [
       {
         index: 0,
         date: '7th September, 2022',
         title:
           'National Conference on Advanced Computer Science and Information Technology (NCACSI-22)',
-        url: 'https://nationalconference.in/event/index.php?id=1617296',
+        // url: "../Files/Proceedings _ICIoT'19.pdf",
         location: 'Bangalore',
       },
     ],
