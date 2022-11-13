@@ -36,7 +36,7 @@ const Header = () => {
       </div>
       <br />
       <div className="bg-red-600">
-        <marquee behavior="alternate" className="text-white bg-red-600">
+        <marquee  className="text-white bg-red-600">
           <a href="/">
             {' '}
             All accepted papers will be published in Reputed Journals.
