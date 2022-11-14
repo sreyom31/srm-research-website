@@ -15,77 +15,77 @@ function Nav() {
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link
                     to="/home"
-                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Home
                   </Link>
 
                   <Link
                     to="/callforpaper"
-                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Call for Papers
                   </Link>
 
                   {/*<a
                                         href="#"
-                                        className="text-gray-300 hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        className="text-white hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Important Dates
                                     </a>*/}
 
                   <Link
                     to="/committee"
-                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Committee
                   </Link>
 
                   <Link
                     to="/conferences"
-                                      className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                      className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Reports
                   </Link>
 
                   {/* <Link
                     to="/speakers"
-                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Speakers
                   </Link> */}
 
                   <Link
                     to="/gallery"
-                                      className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                      className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Gallery
                   </Link>
 
                   {/* <Link
                     to="/submission"
-                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Submission
                   </Link> */}
 
                   {/* <Link
                     to="/registration"
-                    className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Registration
                   </Link> */}
 
                   {/* <Link
                                         to="#"
-                                        className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                     >
                                         Sponsorship
                                     </Link> */}
 
                   <Link
                     to="/contact"
-                                      className="text-gray-300 hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                      className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
                   </Link>
@@ -153,14 +153,14 @@ function Nav() {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a
                   href="/home"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Home
                 </a>
 
                 <a
                   href="/callforpaper"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Call for Papers
                 </a>
@@ -174,42 +174,42 @@ function Nav() {
 
                 <a
                   href="/committee"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Committee
                 </a>
 
                 <a
                   href="#"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Conferences
                 </a>
 
                 <a
                   href="/speakers"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Speakers
                 </a>
 
                 <a
                   href="/gallery"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Gallery
                 </a>
 
                 <a
                   href="/submission"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Submission
                 </a>
 
                 <a
                   href="/registration"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Registration
                 </a>
