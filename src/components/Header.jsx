@@ -2,14 +2,14 @@
 import React from 'react';
 import Navbar from '../components/Nav';
 import srmlogo from '../../src/images/srmlogo.png';
-// import elsev from '../../src/images/elsevier-logo.png';
+import ctech from '../images/CtechLogo.png';
 
 const Header = () => {
   return (
     <div>
       <div className="grid grid-cols-3 justify-items-center">
         <img src={srmlogo} className="w-[40%]"></img>
-        {/* <img src={elsev} className="w-[25%]"></img> */}
+        <img src={ctech} className="w-[50%]"></img>
       </div>
       <br />
       <div className="container-fluid text-center">
@@ -35,8 +35,8 @@ const Header = () => {
         </div>
       </div>
       <br />
-      <div className="bg-red-600">
-        <marquee  className="text-white bg-red-600">
+          <div className="bg-[#122a58]">
+              <marquee className="text-white bg-[#122a58]">
           <a href="/">
             {' '}
             All accepted papers will be published in Reputed Journals.
