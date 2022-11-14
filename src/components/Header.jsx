@@ -42,7 +42,7 @@ const Header = () => {
             All accepted papers will be published in Reputed Journals.
           </a>
           <span className="ml-20">
-            Last Date for Paper Submission: 15th February 2023
+            Last Date for Paper Submission: 28th February 2023
           </span>
         </marquee>
       </div>
