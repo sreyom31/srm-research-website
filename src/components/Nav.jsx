@@ -7,7 +7,7 @@ function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-          <nav className="bg-[#20a7d1]">
+      <nav className="bg-[#20a7d1]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -43,7 +43,7 @@ function Nav() {
 
                   <Link
                     to="/conferences"
-                                      className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Reports
                   </Link>
@@ -57,7 +57,7 @@ function Nav() {
 
                   <Link
                     to="/gallery"
-                                      className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Gallery
                   </Link>
@@ -85,7 +85,7 @@ function Nav() {
 
                   <Link
                     to="/contact"
-                                      className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Contact
                   </Link>

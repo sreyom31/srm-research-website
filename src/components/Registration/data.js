@@ -67,7 +67,7 @@ const transfer = [
       {
         id: 1,
         name: 'Name of Beneficiary',
-        data: 'ICMLDE CONFERENCE',
+        data: 'ICIOT 2023 CONFERENCE',
       },
       {
         id: 2,
@@ -97,7 +97,7 @@ const transfer = [
       {
         id: 7,
         name: 'Name of Beneficiary',
-        data: 'ICMLDE CONFERENCE',
+        data: 'ICIOT 2023 CONFERENCE',
       },
       { id: 8, name: 'Type of Account', data: 'Savings' },
     ],
@@ -114,7 +114,7 @@ const transfer = [
       {
         id: 2,
         name: 'Purpose',
-        data: 'ICMLDE CONFERENCE',
+        data: 'ICIOT 2023 CONFERENCE',
       },
       {
         id: 3,

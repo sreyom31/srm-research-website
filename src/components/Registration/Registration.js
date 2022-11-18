@@ -63,7 +63,7 @@ const Registration = () => {
           <p className="text-sm md:text-lg mt-8">
             2. Delegates/authors paying by wire transfer should use the
             following account information and submit their bank transaction slip
-            and other pertinent information to icmlde2022@gmail.com .
+            and other pertinent information to ICIOT 20232022@gmail.com .
           </p>
         </div>
         <div className="w-[80vw] mx-auto md:w-[60vw] mb-24">

@@ -216,7 +216,7 @@ export const data = [
       },
       {
         id: 10,
-        name: 'oT-based Robots',
+        name: 'IoT-based Robots',
       },
       {
         id: 11,

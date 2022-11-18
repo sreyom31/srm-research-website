@@ -33,7 +33,7 @@ function Contacts() {
           <div className="mt-8 divide-y">
             {' '}
             <p className="pb-2 text-2xl font-bold">Dr. D. Vinod</p>
-            <p className="pb-2 text-2xl">Professor</p>
+            <p className="pb-2 text-2xl">Assistant Professor</p>
             <p className="pb-2 text-2xl">
               Department of Computing technologies
             </p>
