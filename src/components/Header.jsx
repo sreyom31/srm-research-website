@@ -39,11 +39,11 @@ const Header = () => {
               <marquee className="text-white bg-[#122a58]">
           <a href="/">
             {' '}
-            All accepted papers will be published in Reputed Journals.
+            All papers presented in the conference will be published in reputed Journals
           </a>
-          <span className="ml-20">
+          {/* <span className="ml-20">
             Last Date for Paper Submission: 28th February 2023
-          </span>
+          </span> */}
         </marquee>
       </div>
       <Navbar />

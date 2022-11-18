@@ -33,34 +33,49 @@ const cdata = [
       },
     ],
   },
-  {
-    id: 3,
-    title: 'Technical Committee',
-    members: [
-      {
-        name: 'Dr. Gang Li, Associate Professor, School of Information Technology, Deakin University, VIC 3125, Australia',
-      },
-      {
-        name: 'Dr. Sandra Johnson, Professor and Head, Department of Articial Intelligence and Data Science, R.M.K. Engineering College, Chennai',
-      },
-      {
-        name: 'Dr. B. Prathusha Lakshmi, Professor and Head, Department of Articial Intelligence and Data Science, RMK College of Engineering and Technology, Chennai.',
-      },
-      {
-        name: 'Dr. Baskar, Professor, Anna University, Chennai',
-      },
-      {
-        name: 'Dr. H. Khanna Nehemiah, Professor and Additional Director for Admission, Ramanujam Computing Centre, Anna University, Chennai.',
-      },
-      {
-        name: 'Dr. A. Kannan, Senior Professor, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore',
-      }
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: 'Technical Committee',
+  //   members: [
+  //     {
+  //       name: 'Dr. Gang Li, Associate Professor, School of Information Technology, Deakin University, VIC 3125, Australia',
+  //     },
+  //     {
+  //       name: 'Dr. Sandra Johnson, Professor and Head, Department of Articial Intelligence and Data Science, R.M.K. Engineering College, Chennai',
+  //     },
+  //     {
+  //       name: 'Dr. B. Prathusha Lakshmi, Professor and Head, Department of Articial Intelligence and Data Science, RMK College of Engineering and Technology, Chennai.',
+  //     },
+  //     {
+  //       name: 'Dr. Baskar, Professor, Anna University, Chennai',
+  //     },
+  //     {
+  //       name: 'Dr. H. Khanna Nehemiah, Professor and Additional Director for Admission, Ramanujam Computing Centre, Anna University, Chennai.',
+  //     },
+  //     {
+  //       name: 'Dr. A. Kannan, Senior Professor, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore',
+  //     }
+  //   ],
+  // },
   {
     id: 4,
     title: 'National Technical Committee',
     members: [
+      {
+        name: 'Dr. Sandra Johnson, Professor and Head, Department of Artificial Intelligence and Data Science, R.M.K. Engineering College, Chennai'
+      },
+      {
+        name: 'Dr. B. Prathusha Lakshmi, Professor and Head, Department of Artificial Intelligence and Data Science, RMK College of Engineering and Technology, Chennai.'
+      },
+      {
+        name: 'Dr. Baskar, Professor, Anna University, Chennai'
+      },
+      {
+        name: 'Dr. H. Khanna Nehemiah, Professor and Additional Director for Admission, Ramanujam Computing Centre, Anna University, Chennai.'
+      },
+      {
+        name: 'Dr. A. Kannan, Senior Professor, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore'
+      },
       {
         name: 'Dr. K Gunaseelan, Assistant Professor, Department of CSE, CET Campus Anna University',
       },
@@ -178,6 +193,9 @@ const cdata = [
     id: 5,
     title: 'International Technical Committee',
     members: [
+      {
+        name: 'Dr. Gang Li, Associate Professor, School of Information Technology, Deakin University, VIC 3125, Australia'
+      },
       {
         name: 'S Rinesh, Jigjiga University, Ethiopia'
       },

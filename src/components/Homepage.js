@@ -12,7 +12,7 @@ function Homepage() {
           View Brochure
         </a> */}
       </div>
-      <div className="imptable">
+      {/* <div className="imptable">
         <table>
           <tr>
             <th colSpan="2">IMPORTANT DATES</th>
@@ -38,7 +38,7 @@ function Homepage() {
             <td>26th-28th April 2023</td>
           </tr>
         </table>
-      </div>
+      </div> */}
       <div className="About">
         <div>
           <h2 className="aboutext ">About ICIoT 2023 Conference</h2>
