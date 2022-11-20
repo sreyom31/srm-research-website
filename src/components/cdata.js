@@ -263,7 +263,7 @@ const cdata = [
         name: 'Wan B'
       },
       {
-        name: 'Fang Zhi'
+        name: 'Fang Zhi, Chief Executive Officer, Nexen, Beijing, China'
       },
       {
         name: 'Dr. Sakkaravarthi Ramanathan, Professor, Vanier College/Cegep De Gaspesie,Canada'

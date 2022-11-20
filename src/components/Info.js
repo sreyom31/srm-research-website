@@ -21,7 +21,7 @@ const Info = () => {
               <p>Third international conference</p>
               <p>ON</p>
               <p>Internet Of Things</p>
-              <p>(ICIOT-2022),5-7 April 2022 </p>
+              <p>(ICIOT-2023),5-7 April 2023 </p>
             </div>
           </div>
         </div>

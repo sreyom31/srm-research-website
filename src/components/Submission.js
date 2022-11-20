@@ -49,7 +49,7 @@ const Submission = () => {
                 </li>
                 <br />
                 <li className="list-decimal">
-                  All manuscripts submitted to ICIOT 2023 2022 will undergo a
+                  All manuscripts submitted to ICIOT 2023 will undergo a
                   peer-review process and the submitted manuscript will be
                   reviewed by at least three reviewers. The review process will
                   be double-blind.

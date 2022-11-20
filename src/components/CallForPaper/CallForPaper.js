@@ -15,7 +15,7 @@ const CallForPaper = () => {
           unpublished, research contribution which is not currently under review
           by another conference or journal and addressing state-of-the-art
           research are invited to share their work in all areas of ICIOT 2023
-          2022 but not limited to the conference tracks.
+          but not limited to the conference tracks.
         </h2>
         <div className="imptable">
           <table>
