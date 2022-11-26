@@ -260,12 +260,6 @@ const cdata = [
         name: 'Dr. Thingaran Perumal, Professor, Department of Computer Science,Faculty of Computer Science and Information Technology ,Universiti Putra Malaysia ,43400 ,Serdang, Selangor Darul Ehsan, MALAYSIA'
       },
       {
-        name: 'Wan B'
-      },
-      {
-        name: 'Fang Zhi, Chief Executive Officer, Nexen, Beijing, China'
-      },
-      {
         name: 'Dr. Sakkaravarthi Ramanathan, Professor, Vanier College/Cegep De Gaspesie,Canada'
       },
       {
