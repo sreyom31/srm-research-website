@@ -5,16 +5,20 @@ const cdata = [
     title: 'Patrons',
     members: [
       {
-        name: 'Dr. T.R. Paarivendhar, Founder Chancellor ',
+        name: 'Dr. T.R. Paarivendhar ',
+        desig: 'Founder Chancellor',
       },
       {
-        name: 'Dr. P. Ravi Pachamoothoo, Pro - Chancellor (Admin) ',
+        name: 'Dr. P. Ravi Pachamoothoo ',
+        desig: 'Pro - Chancellor (Admin)',
       },
       {
-        name: 'Dr. P. Sathyanarayanan, Pro - Chancellor, (Academics) ',
+        name: 'Dr. P. Sathyanarayanan ',
+        desig: 'Pro - Chancellor (Academics)',
       },
       {
-        name: 'Dr. R. Shivakumar, Vice President, SRMIST',
+        name: 'Dr. R. Shivakumar',
+        desig: 'Vice President, SRMIST',
       },
     ],
   },
@@ -23,13 +27,16 @@ const cdata = [
     title: 'Steering Committee',
     members: [
       {
-        name: 'Dr. C. Muthamizhchelvan, Vice Chancellor, SRMIST ',
+        name: 'Dr. C. Muthamizhchelvan ',
+        desig: 'Vice Chancellor, SRMIST',
       },
       {
-        name: 'Prof. S. Ponnusamy, Registrar, SRMIST ',
+        name: 'Prof. S. Ponnusamy ',
+        desig: 'Registrar, SRMIST',
       },
       {
-        name: ' Dr. T.V. Gopal, Dean (CET), SRMIST ',
+        name: ' Dr. T.V. Gopal ',
+        desig: 'Dean (CET), SRMIST',
       },
     ],
   },
@@ -62,19 +69,19 @@ const cdata = [
     title: 'National Technical Committee',
     members: [
       {
-        name: 'Dr. Sandra Johnson, Professor and Head, Department of Artificial Intelligence and Data Science, R.M.K. Engineering College, Chennai'
+        name: 'Dr. Sandra Johnson, Professor and Head, Department of Artificial Intelligence and Data Science, R.M.K. Engineering College, Chennai',
       },
       {
-        name: 'Dr. B. Prathusha Lakshmi, Professor and Head, Department of Artificial Intelligence and Data Science, RMK College of Engineering and Technology, Chennai.'
+        name: 'Dr. B. Prathusha Lakshmi, Professor and Head, Department of Artificial Intelligence and Data Science, RMK College of Engineering and Technology, Chennai.',
       },
       {
-        name: 'Dr. Baskar, Professor, Anna University, Chennai'
+        name: 'Dr. Baskar, Professor, Anna University, Chennai',
       },
       {
-        name: 'Dr. H. Khanna Nehemiah, Professor and Additional Director for Admission, Ramanujam Computing Centre, Anna University, Chennai.'
+        name: 'Dr. H. Khanna Nehemiah, Professor and Additional Director for Admission, Ramanujam Computing Centre, Anna University, Chennai.',
       },
       {
-        name: 'Dr. A. Kannan, Senior Professor, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore'
+        name: 'Dr. A. Kannan, Senior Professor, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore',
       },
       {
         name: 'Dr. K Gunaseelan, Assistant Professor, Department of CSE, CET Campus Anna University',
@@ -194,82 +201,82 @@ const cdata = [
     title: 'International Technical Committee',
     members: [
       {
-        name: 'Dr. Gang Li, Associate Professor, School of Information Technology, Deakin University, VIC 3125, Australia'
+        name: 'Dr. Gang Li, Associate Professor, School of Information Technology, Deakin University, VIC 3125, Australia',
       },
       {
-        name: 'S Rinesh, Jigjiga University, Ethiopia'
+        name: 'S Rinesh, Jigjiga University, Ethiopia',
       },
       {
-        name: 'Mahalakshmi V, Jazan University, Saudi Arabia'
+        name: 'Mahalakshmi V, Jazan University, Saudi Arabia',
       },
       {
-        name: 'Dr Venkadachalam, Scientific Researcher, University of Hradec Kralove Czech Republic'
+        name: 'Dr Venkadachalam, Scientific Researcher, University of Hradec Kralove Czech Republic',
       },
       {
-        name: 'Dr. Tamizharasan P S, Assistant Professor, Birla Institute of Technology & Science (BITS), Pilani, Dubai Campus, Dubai International Academic City, P O Box 345055, Dubai, UAE'
+        name: 'Dr. Tamizharasan P S, Assistant Professor, Birla Institute of Technology & Science (BITS), Pilani, Dubai Campus, Dubai International Academic City, P O Box 345055, Dubai, UAE',
       },
       {
-        name: 'Dr.Lipo Wang, Professor, Nanyang Technological University,Singapore'
+        name: 'Dr.Lipo Wang, Professor, Nanyang Technological University,Singapore',
       },
       {
-        name: 'Dr.Oliver Faust, Professor, Sheffield Hallam University,City Campus, Howard Street, Sheffield, S1 1WB, United Kingdom'
+        name: 'Dr.Oliver Faust, Professor, Sheffield Hallam University,City Campus, Howard Street, Sheffield, S1 1WB, United Kingdom',
       },
       {
-        name: 'Dr.Shuai Li, Associate Pofessor, Swansea University,Fabian Way, Swansea, UK'
+        name: 'Dr.Shuai Li, Associate Pofessor, Swansea University,Fabian Way, Swansea, UK',
       },
       {
-        name: 'Dr.Stephen Olatunde Olabiyisi, Professor, LadokeAkintola University of Technology,Ogbomoso, Nigeria'
+        name: 'Dr.Stephen Olatunde Olabiyisi, Professor, LadokeAkintola University of Technology,Ogbomoso, Nigeria',
       },
       {
-        name: 'MR. Elanttamil A/L Maruth, Lecturer, Department of Malaysian Languages & Applied Linguistics, Faculty of Languages & Linguistics, University of Malaya'
+        name: 'MR. Elanttamil A/L Maruth, Lecturer, Department of Malaysian Languages & Applied Linguistics, Faculty of Languages & Linguistics, University of Malaya',
       },
       {
-        name: 'DrInge Dhamanthi, Assistant Professor, Department of Health Poicy and adminstartion, University Airlangga,Indonesia'
+        name: 'DrInge Dhamanthi, Assistant Professor, Department of Health Poicy and adminstartion, University Airlangga,Indonesia',
       },
       {
-        name: 'Dr Fitri Yakub, Senior Lecture, Department of Electronic system Engineering, Unversiti Tecknologi Malaysia'
+        name: 'Dr Fitri Yakub, Senior Lecture, Department of Electronic system Engineering, Unversiti Tecknologi Malaysia',
       },
       {
-        name: 'Dr.Mohammed A. AlZain , Associate Professor, College of Computers and Information Technology,Taif University, Saudi Arabia'
+        name: 'Dr.Mohammed A. AlZain , Associate Professor, College of Computers and Information Technology,Taif University, Saudi Arabia',
       },
       {
-        name: 'Dr.Anand Nayyar, Professor, Dyu Tan University,Vietnam'
+        name: 'Dr.Anand Nayyar, Professor, Dyu Tan University,Vietnam',
       },
       {
-        name: 'Dr. Mariofanna Milanova, Professor, University of Arkansas at Little Rock,United States of America'
+        name: 'Dr. Mariofanna Milanova, Professor, University of Arkansas at Little Rock,United States of America',
       },
       {
-        name: 'Byungun Yoon, Professor, Department of Industrial and Systems Engineering,Dongguk University, Seoul, South Korea'
+        name: 'Byungun Yoon, Professor, Department of Industrial and Systems Engineering,Dongguk University, Seoul, South Korea',
       },
       {
-        name: 'Dr.Mehedi Masud , Professor, College of Computers and Information Technology,Taif University, Saudi Arabia'
+        name: 'Dr.Mehedi Masud , Professor, College of Computers and Information Technology,Taif University, Saudi Arabia',
       },
       {
-        name: 'Dr. Tommaso Pecorella, Associate professor, Department of Information Engineering, University of Florence'
+        name: 'Dr. Tommaso Pecorella, Associate professor, Department of Information Engineering, University of Florence',
       },
       {
-        name: 'Hussain A, Universiti Utara Malaysia, Malaysia'
+        name: 'Hussain A, Universiti Utara Malaysia, Malaysia',
       },
       {
-        name: 'Dr. Muhammad Irfan, Professor, GIKI University, Pakistan'
+        name: 'Dr. Muhammad Irfan, Professor, GIKI University, Pakistan',
       },
       {
-        name: 'Dr Gang Li, Professor, Deakin University, Australia'
+        name: 'Dr Gang Li, Professor, Deakin University, Australia',
       },
       {
-        name: 'Dr. Thingaran Perumal, Professor, Department of Computer Science,Faculty of Computer Science and Information Technology ,Universiti Putra Malaysia ,43400 ,Serdang, Selangor Darul Ehsan, MALAYSIA'
+        name: 'Dr. Thingaran Perumal, Professor, Department of Computer Science,Faculty of Computer Science and Information Technology ,Universiti Putra Malaysia ,43400 ,Serdang, Selangor Darul Ehsan, MALAYSIA',
       },
       {
-        name: 'Dr. Sakkaravarthi Ramanathan, Professor, Vanier College/Cegep De Gaspesie,Canada'
+        name: 'Dr. Sakkaravarthi Ramanathan, Professor, Vanier College/Cegep De Gaspesie,Canada',
       },
       {
-        name: 'Dr.Xavier N Fernando, Professor, Ryerson University,Canada'
+        name: 'Dr.Xavier N Fernando, Professor, Ryerson University,Canada',
       },
       {
-        name: 'Meenalosini Vimal Cruz, Allen E. Paulson Georgia Southern University, Georgia'
+        name: 'Meenalosini Vimal Cruz, Allen E. Paulson Georgia Southern University, Georgia',
       },
       {
-        name: 'Dr. Vineet Batta, Doctor (Orthopaedics), Orthopaedics & Trauma Senior Clinical Fellow at Luton & Dunstable University NHS Trust'
+        name: 'Dr. Vineet Batta, Doctor (Orthopaedics), Orthopaedics & Trauma Senior Clinical Fellow at Luton & Dunstable University NHS Trust',
       },
     ],
   },
@@ -278,10 +285,12 @@ const cdata = [
     title: 'Advisory Committee',
     members: [
       {
-        name: 'Dr. Revathy Venkatraman, Professor & Chair Person,School of Computing, SRMIST, KTR ',
+        name: 'Dr. Revathy Venkatraman ',
+        desig: 'Professor & Chair Person,School of Computing, SRMIST, KTR',
       },
       {
-        name: ' Dr. A Rathinam, Director, Alumni Affairs, SRMIST',
+        name: ' Dr. A Rathinam, Director',
+        desig: 'Alumni Affairs, SRMIST',
       },
     ],
   },
@@ -290,7 +299,9 @@ const cdata = [
     title: 'Convener',
     members: [
       {
-        name: 'Dr.M.Pushpalatha, Professor & Head of the Department, Computing Technologies, SRMIST, KTR ',
+        name: 'Dr.M.Pushpalatha ',
+        desig:
+          'Professor & Head of the Department, Computing Technologies, SRMIST, KTR',
       },
     ],
   },
@@ -299,10 +310,12 @@ const cdata = [
     title: 'Co-Conveners',
     members: [
       {
-        name: 'Dr. S S Sridhar, Professor, C.Tech',
+        name: 'Dr. S S Sridhar',
+        desig: 'Professor, C.Tech',
       },
       {
-        name: 'Dr. Vijaya K, Associate Professor, C.Tech',
+        name: 'Dr. Vijaya K',
+        desig: 'Associate Professor, C.Tech',
       },
     ],
   },
@@ -311,7 +324,8 @@ const cdata = [
     title: 'Organizing Secretary',
     members: [
       {
-        name: 'Dr. R. I. Minu, Professor, C.Tech',
+        name: 'Dr. R. I. Minu',
+        desig: 'Professor, C.Tech',
       },
     ],
   },
@@ -320,28 +334,36 @@ const cdata = [
     title: 'Organising Committee',
     members: [
       {
-        name: 'Dr. D. Malathi, Professor, C.Tech',
+        name: 'Dr. D. Malathi',
+        desig: 'Professor, C.Tech',
       },
       {
-        name: 'Dr. E. Poovammal, Professor, C.Tech',
+        name: 'Dr. E. Poovammal',
+        desig: 'Professor, C.Tech',
       },
       {
-        name: 'Dr. B. Amutha, Professor, C.Tech ',
+        name: 'Dr. B. Amutha ',
+        desig: 'Professor, C.Tech',
       },
       {
-        name: 'Dr. G. Niranjana, Professor, C.Tech ',
+        name: 'Dr. G. Niranjana ',
+        desig: 'Professor, C.Tech',
       },
       {
-        name: 'Dr. M. Murali, Professor, C.Tech',
+        name: 'Dr. M. Murali',
+        desig: 'Professor, C.Tech',
       },
       {
-        name: 'Dr. A. Jeyasekar, Associate Professor, C.Tech',
+        name: 'Dr. A. Jeyasekar',
+        desig: 'Associate Professor, C.Tech',
       },
       {
-        name: 'Dr. B. Muruganantham, Associate Professor, C.Tech',
+        name: 'Dr. B. Muruganantham',
+        desig: 'Associate Professor, C.Tech',
       },
       {
-        name: 'Dr. R. S. Ponmagal, Associate Professor, C.Tech',
+        name: 'Dr. R. S. Ponmagal',
+        desig: 'Associate Professor, C.Tech',
       },
     ],
   },
