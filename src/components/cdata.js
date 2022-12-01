@@ -20,7 +20,7 @@ const cdata = [
   },
   {
     id: 2,
-    title: 'Steering Committee',
+    title: 'Advisory Committee',
     members: [
       {
         name: 'Dr. C. Muthamizhchelvan, Vice Chancellor, SRMIST ',
@@ -31,6 +31,12 @@ const cdata = [
       {
         name: ' Dr. T.V. Gopal, Dean (CET), SRMIST ',
       },
+      {
+        name: 'Dr. Revathy Venkatraman, Professor & Chair Person,School of Computing, SRMIST',
+      },
+      {
+        name: 'Dr. Bernaurdshaw Neppolian, Dean, Research, SRMIST'
+      }
     ],
   },
   // {
@@ -270,18 +276,6 @@ const cdata = [
       },
       {
         name: 'Dr. Vineet Batta, Doctor (Orthopaedics), Orthopaedics & Trauma Senior Clinical Fellow at Luton & Dunstable University NHS Trust'
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: 'Advisory Committee',
-    members: [
-      {
-        name: 'Dr. Revathy Venkatraman, Professor & Chair Person,School of Computing, SRMIST, KTR ',
-      },
-      {
-        name: ' Dr. A Rathinam, Director, Alumni Affairs, SRMIST',
       },
     ],
   },
