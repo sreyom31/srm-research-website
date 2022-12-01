@@ -13,9 +13,13 @@ const Submission = () => {
               Paper Submission
             </h1>
             <div className="flex">
-              <button className="p-3 m-7 px-10 font-bold bg-sky-200 text-black text-center rounded-full">
+              <a
+                href="../ICIOT-template.docx"
+                download
+                className="p-3 m-7 px-10 font-bold bg-sky-200 text-black text-center rounded-full"
+              >
                 Download Templates
-              </button>
+              </a>
               <button className="p-3 px-10 m-7 font-bold bg-[#122a58] text-white text-center rounded-full">
                 Paper Submission
               </button>
