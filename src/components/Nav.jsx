@@ -49,6 +49,13 @@ function Nav() {
                   </Link>
 
                   <Link
+                    to="/submission"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Submission
+                  </Link>
+
+                  <Link
                     to="/speakers"
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
@@ -60,13 +67,6 @@ function Nav() {
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Gallery
-                  </Link>
-
-                  <Link
-                    to="/submission"
-                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Submission
                   </Link>
 
                   {/* <Link
