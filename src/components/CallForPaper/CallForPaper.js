@@ -52,7 +52,7 @@ const CallForPaper = () => {
             {data.map((item) => {
               return (
                 <div className="mx-4 mt-8" key={item.id}>
-                  <h3 className="bg-[#122a58] w-[70vw] md:w-[30vw] px-4 py-2 text-md md:text-lg text-center text-white">
+                  <h3 className="bg-[#122a58] w-[60vw] px-4 py-2 md:text-lg text-center text-white">
                     {item.title}
                   </h3>
                   <div className="mt-4">
