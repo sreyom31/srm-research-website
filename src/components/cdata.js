@@ -7,18 +7,22 @@ const cdata = [
       {
         name: 'Dr. T.R. Paarivendhar ',
         desig: 'Founder Chancellor',
+        image: '../images/paarivendhar-sir.jpg',
       },
       {
         name: 'Dr. P. Ravi Pachamoothoo ',
         desig: 'Pro - Chancellor (Admin)',
+        image: '../images/pachamoothoo-sir.jpg',
       },
       {
         name: 'Dr. P. Sathyanarayanan ',
         desig: 'Pro - Chancellor (Academics)',
+        image: '../images/sathya-sir.jpg',
       },
       {
         name: 'Dr. R. Shivakumar',
         desig: 'Vice President, SRMIST',
+        image: '../images/shivakumar-sir.jpg',
       },
     ],
   },
@@ -29,21 +33,28 @@ const cdata = [
       {
         name: 'Dr. C. Muthamizhchelvan ',
         desig: 'Vice Chancellor, SRMIST',
+        image: '../images/muthamizhchelvan-sir.jpg',
       },
       {
         name: 'Prof. S. Ponnusamy ',
         desig: 'Registrar, SRMIST',
+        image: '../images/ponnusamy.jpg',
       },
       {
         name: ' Dr. T.V. Gopal ',
         desig: 'Dean (CET), SRMIST',
+        image: '../images/tvgopal-sir.jpg',
       },
       {
-        name: 'Dr. Revathy Venkatraman, Professor & Chair Person,School of Computing, SRMIST',
+        name: 'Dr. Revathy Venkatraman',
+        desig: 'Professor and Chair Person, SRMIST',
+        image: '../images/revathi-mam.jpg',
       },
       {
-        name: 'Dr. Bernaurdshaw Neppolian, Dean, Research, SRMIST'
-      }
+        name: 'Dr. Bernaurdshaw Neppolian',
+        desig: 'Dean, Research, SRMIST',
+        image: '../images/default.jpg',
+      },
     ],
   },
   // {

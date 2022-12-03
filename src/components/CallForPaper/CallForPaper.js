@@ -17,33 +17,6 @@ const CallForPaper = () => {
           research are invited to share their work in all areas of ICIOT 2023
           but not limited to the conference tracks.
         </h2>
-        <div className="imptable">
-          <table>
-            <tr>
-              <th colSpan="2">IMPORTANT DATES</th>
-            </tr>
-            <tr>
-              <td>Paper Submission Deadline</td>
-              <td>28th Feb 2023</td>
-            </tr>
-            <tr>
-              <td>Notification of Acceptance</td>
-              <td>31st March 2023</td>
-            </tr>
-            <tr>
-              <td>Revised Paper Submission Deadline</td>
-              <td>12th April 2023</td>
-            </tr>
-            <tr>
-              <td>Registration Deadline</td>
-              <td>20th April 2023</td>
-            </tr>
-            <tr>
-              <td>Conference Date</td>
-              <td>26th-28th April 2023</td>
-            </tr>
-          </table>
-        </div>
         <div className="mt-4">
           <h2 className="text-2xl text-center font-bold">
             Conference Sub Themes and Tracks:

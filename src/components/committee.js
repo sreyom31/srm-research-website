@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import cdata from './cdata';
 import './committee.css';
-import Avatar from '../images/Avatar.jpeg';
+import imgg from '../images/default.jpg';
 
 const committee = () => {
   return (
@@ -38,9 +38,10 @@ const committee = () => {
                     // item &&
                     // item.members &&
                     item.members.map((mem) => {
+                      console.log(mem.image);
                       return (
                         <div key={mem.id} className="card">
-                          <img src={Avatar} alt="Avatar" className="image" />
+                          <img src={imgg} alt="Avatar" className="image" />
                           <div className="container">
                             <h4>
                               <b>{mem.name}</b>
