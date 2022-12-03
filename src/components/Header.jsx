@@ -3,13 +3,17 @@ import React from 'react';
 import Navbar from '../components/Nav';
 import srmlogo from '../../src/images/srmlogo.png';
 import ctech from '../images/CtechLogo.png';
+import soc from '../images/soc-logo.png';
+import iciot from '../images/iciot-logo.jpeg';
 
 const Header = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 justify-items-center">
+      <div className="grid grid-cols-4 justify-items-center">
         <img src={srmlogo} className="w-[40%]"></img>
         <img src={ctech} className="w-[50%]"></img>
+        <img src={soc} className="w-[35%] pt-4"></img>
+        <img src={iciot} className="w-[15%] pt-2"></img>
       </div>
       <br />
       <div className="container-fluid text-center">
@@ -35,11 +39,12 @@ const Header = () => {
         </div>
       </div>
       <br />
-          <div className="bg-[#122a58]">
-              <marquee className="text-white bg-[#122a58]">
+      <div className="bg-[#122a58]">
+        <marquee className="text-white bg-[#122a58]">
           <a href="/">
             {' '}
-            All papers presented in the conference will be published in reputed Journals
+            All papers presented in the conference will be published in reputed
+            Journals
           </a>
           {/* <span className="ml-20">
             Last Date for Paper Submission: 28th February 2023

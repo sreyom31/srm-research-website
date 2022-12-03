@@ -24,7 +24,7 @@ const cdata = [
   },
   {
     id: 2,
-    title: 'Steering Committee',
+    title: 'Advisory Committee',
     members: [
       {
         name: 'Dr. C. Muthamizhchelvan ',
@@ -38,6 +38,12 @@ const cdata = [
         name: ' Dr. T.V. Gopal ',
         desig: 'Dean (CET), SRMIST',
       },
+      {
+        name: 'Dr. Revathy Venkatraman, Professor & Chair Person,School of Computing, SRMIST',
+      },
+      {
+        name: 'Dr. Bernaurdshaw Neppolian, Dean, Research, SRMIST'
+      }
     ],
   },
   // {
