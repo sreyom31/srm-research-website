@@ -23,6 +23,33 @@ const Submission = () => {
               <button className="p-3 px-10 m-7 font-bold bg-[#122a58] text-white text-center rounded-full">
                 Paper Submission
               </button>
+            </div>{' '}
+            <div className="imptable rounded-2xl border border-sky-400 my-20 bg-sky-200">
+              <table>
+                <tr>
+                  <th colSpan="2">IMPORTANT DATES</th>
+                </tr>
+                <tr>
+                  <td>Paper Submission Deadline</td>
+                  <td>28th Feb 2023</td>
+                </tr>
+                <tr>
+                  <td>Notification of Acceptance</td>
+                  <td>31st March 2023</td>
+                </tr>
+                <tr>
+                  <td>Revised Paper Submission Deadline</td>
+                  <td>12th April 2023</td>
+                </tr>
+                <tr>
+                  <td>Registration Deadline</td>
+                  <td>20th April 2023</td>
+                </tr>
+                <tr>
+                  <td>Conference Date</td>
+                  <td>26th-28th April 2023</td>
+                </tr>
+              </table>
             </div>
             <ol>
               <li className="font-bold px-5  text-lg">
