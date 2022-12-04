@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import cdata from './cdata';
 import './committee.css';
-import imgg from '../images/default.jpg';
+// import imgg from '../images/default.jpg';
 
 const committee = () => {
   return (
@@ -26,7 +26,7 @@ const committee = () => {
           const num = [4, 5];
           return (
             !num.includes(item.id) && (
-              <>
+              <div key={item.id}>
                 <h1
                   style={{ fontSize: '35px', height: '40px' }}
                   className="mt-5 text-center font-semibold text-2xl"
@@ -41,7 +41,7 @@ const committee = () => {
                       console.log(mem.image);
                       return (
                         <div key={mem.id} className="card">
-                          <img src={imgg} alt="Avatar" className="image" />
+                          <img src={mem.image} alt="Avatar" className="image" />
                           <div className="container">
                             <h4>
                               <b>{mem.name}</b>
@@ -53,7 +53,7 @@ const committee = () => {
                     })
                   }
                 </div>
-              </>
+              </div>
             )
           );
         })}
