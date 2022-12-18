@@ -304,10 +304,12 @@ const cdata = [
       {
         name: 'Dr. Revathy Venkatraman ',
         desig: 'Professor & Chair Person,School of Computing, SRMIST, KTR',
+        image: '../images/revathi-mam.jpg',
       },
       {
         name: ' Dr. A Rathinam, Director',
         desig: 'Alumni Affairs, SRMIST',
+        image: '../images/default.jpg',
       },
     ],
   },
@@ -319,6 +321,7 @@ const cdata = [
         name: 'Dr.M.Pushpalatha ',
         desig:
           'Professor & Head of the Department, Computing Technologies, SRMIST, KTR',
+        image: '../images/pushpalatha-mam.jpg',
       },
     ],
   },
@@ -329,10 +332,12 @@ const cdata = [
       {
         name: 'Dr. S S Sridhar',
         desig: 'Professor, C.Tech',
+        images: '../images/default.jpg',
       },
       {
         name: 'Dr. Vijaya K',
         desig: 'Associate Professor, C.Tech',
+        image: '../images/vijaya-mam.jpg',
       },
     ],
   },
@@ -343,6 +348,7 @@ const cdata = [
       {
         name: 'Dr. R. I. Minu',
         desig: 'Professor, C.Tech',
+        image: '../images/minu-mam.jpg',
       },
     ],
   },
@@ -353,34 +359,42 @@ const cdata = [
       {
         name: 'Dr. D. Malathi',
         desig: 'Professor, C.Tech',
+        images: '../images/default.jpg',
       },
       {
         name: 'Dr. E. Poovammal',
         desig: 'Professor, C.Tech',
+        images: '../images/poovamal-mam.jpg',
       },
       {
         name: 'Dr. B. Amutha ',
         desig: 'Professor, C.Tech',
+        images: '../images/default.jpg',
       },
       {
         name: 'Dr. G. Niranjana ',
         desig: 'Professor, C.Tech',
+        images: '../images/default.jpg',
       },
       {
         name: 'Dr. M. Murali',
         desig: 'Professor, C.Tech',
+        images: '../images/default.jpg',
       },
       {
         name: 'Dr. A. Jeyasekar',
         desig: 'Associate Professor, C.Tech',
+        images: '../images/default.jpg',
       },
       {
         name: 'Dr. B. Muruganantham',
         desig: 'Associate Professor, C.Tech',
+        images: '../images/default.jpg',
       },
       {
         name: 'Dr. R. S. Ponmagal',
         desig: 'Associate Professor, C.Tech',
+        images: '../images/default.jpg',
       },
     ],
   },
