@@ -1,6 +1,42 @@
 [
   {
     "id": 1,
+    "title1": "Dr. Raghuraman",
+    "image1": "https://drive.google.com/file/d/1mLCi1GTeHqKdHj4iMlU3GkWHc6E-1Pkv/view?usp=drivesdk",
+    "content1": "Mr. Raghuraman, Project Manager having Post Graduation in Industrial Engineering in CEG Guindy Chennai. His area of interest is in Project and Program Management and has managed a variety of Data Engineering and Cloud Migration projects.",
+    "content2": "He has around 15 years of experience overall and last 7 years managing projects across different domains like Transport and Logistics, Retail etc. He has completed International/National certifications like PMP(Project Management Professional), Profession Scrum Master, Six Sigma Black Belt from ISI Chennai.",
+    "info1": "Project Manager",
+    "info2": "TATA Consulting Services",
+    "info3": "Chennai",
+    "info4": "Mob: 9791011205",
+    "info5": "Email: raghuauie@gmail.com"
+  },
+  {
+    "id": 2,
+    "title1": "Dr. Anand Nayyar",
+    "image1": "https://drive.google.com/file/d/1_Bc1SERRLbOJB_NfmzHLdmCzmqcbXI2E/view?usp=drivesdk",
+    "content1": "Dr. Anand Nayyar received Ph.D (Computer Science) from Desh Bhagat University in 2017 in the area of Wireless Sensor Networks, Swarm Intelligence and Network Simulation. He is currently working in School of Computer Science-Duy Tan University, Da Nang, Vietnam as Assistant Professor, Scientist, Vice-Chairman (Research) and Director- IoT and Intelligent Systems Lab. A Certified Professional with 125+ Professional certificates from CISCO, Microsoft, Amazon, EC-Council, Oracle, Google, Beingcert, EXIN, GAQM, Cyberoam and many more. Published more than 140+ Research Papers in various High-Quality ISI-SCI/SCIE/SSCI Impact Factor Journals cum Scopus/ESCI indexed Journals, 70+ Papers in International Conferences indexed with Springer, IEEE and ACM Digital Library, 40+ Book Chapters in various SCOPUS, WEB OF SCIENCE Indexed Books with Springer, CRC Press, Wiley, IET, Elsevier with Citations: 7600+, H-Index: 45 and I-Index: 160. Member of more than 60+ Associations as Senior and Life Member including IEEE, ACM. He has authored/co-authored cum Edited 40+ Books of Computer Science. Associated with more than 500+ International Conferences as Programme Committee/Chair/Advisory Board/Review Board member. ",
+    "content2": "He has 18 Australian Patents, 4 German Patents, 2 Japanese Patents, 11 Indian Design cum Utility Patents, 1 USA Patent, 3 Indian Copyrights and 2 Canadian Copyrights to his credit in the area of Wireless Communications, Artificial Intelligence, Cloud Computing, IoT and Image Processing. Awarded 38 Awards for Teaching and Research—Young Scientist, Best Scientist, Young Researcher Award, Outstanding Researcher Award, Excellence in Teaching, Best Senior Scientist Award and many more. He is listed in Top 2% Scientists as per Stanford University (2020, 2021, 2022). He is acting as Associate Editor for Wireless Networks (Springer), Computer Communications (Elsevier), International Journal of Sensor Networks (IJSNET) (Inderscience), Frontiers in Computer Science, PeerJ Computer Science, Human Centric Computing and Information Sciences (HCIS), IET-Quantum Communications, IET Wireless Sensor Systems, IET Networks, IJDST, IJISP, IJCINI, IJGC. He is acting as Editor-in-Chief of IGI-Global, USA Journal titled “International Journal of Smart Vehicles and Smart Transportation (IJSVST)”. He has reviewed more than 2500+ Articles for diverse Web of Science and Scopus Indexed Journals. He is currently researching in the area of Wireless Sensor Networks, Internet of Things, Swarm Intelligence, Cloud Computing, Artificial Intelligence, Drones, Blockchain, Cyber Security, Network Simulation, Big Data and Wireless Communications.",
+    "info1": "Assistant Professor",
+    "info2": "Scientist, Vice-Chairman (Research) and Director",
+    "info3": "IoT and Intelligent Systems Lab",
+    "info4": "School of Computer Science-Duy Tan University",
+    "info5": "Da Nang, Vietnam"
+  },
+  {
+    "id": 3,
+    "title1": "Dr. Balachandra Pattanaik",
+    "image1": "https://drive.google.com/file/d/1Qe2gWjUwI5dA3PVVdBcLFRXhxhayQROP/view?usp=drivesdk",
+    "content1": "Dr. Balachandra Pattanaik,Professor having Dual PhD, PhD in Electrical Engineering with Embedded systems & PhD in Mathematics and ongoing PDF in Electrical Engineering. His area of interest is in Electrical, Electronics, Computer, Machine Learning, Embedded and VLSI Systems in Mathematics.  He has around 22 years of experience in Teaching, Research and industry. He has completed 4 (four) Funded Research projects. He has many reputed publications includes Springer, IEEE, and Elsevier and as well has 13 innovative Patents: Published Indian Govt. Patent Journal: 10, International patent Grant in Australia, Germany, and UK: 4. He is Vice Chairman of IEEE Ethiopia Subsection.",
+    "content2": "He has thirteen UG AND PG Books published & six Book chapters. Being a senior member in IEEE, Power & Energy student chapter Advisor for IEEE at BULE HORA UNIVERSITY also received Awarded as Chartered Engineer award from IE, India. He holds many administrative positions as HOD/EEE, Principal, Anna University Chief Supertendent for university examinations, NSS coordinator, Research coordinator, Accreditation Management representative, Editorial board members, Chair/ Vice chair for conference sessions. He has Guided many UG & PG research Projects and a   Foreign PhD thesis Evaluator for many Universities.",
+    "info1": "Professor,Department of Electrical and computer engineering,",
+    "info2": "College of Engineering and Technology, ",
+    "info3": "Wallaga University,  Nekemte,",
+    "info4": "Mob: +251934402124",
+    "info5": "Email: balapk197@wollegauniversity.edu.et"
+  },
+  {
+    "id": 4,
     "title1": "Dr. Raj Gururajan",
     "image1": "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
     "content1": "Dr. Raj Gururajan has been working in the Australian Tertiary Sector.Dr. Raj Gururajan has been working in the Australian.",
