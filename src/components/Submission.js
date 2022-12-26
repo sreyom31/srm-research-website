@@ -20,9 +20,14 @@ const Submission = () => {
               >
                 Download Templates
               </a>
-              <button className="p-3 px-10 m-7 font-bold bg-[#122a58] text-white text-center rounded-full">
+              <a
+                href="https://cmt3.research.microsoft.com/ICIoT2023"
+                target="_blank"
+                rel="noreferrer"
+                className="p-3 px-10 m-7 font-bold bg-[#122a58] text-white text-center rounded-full"
+              >
                 Paper Submission
-              </button>
+              </a>
             </div>{' '}
             <div className="imptable rounded-2xl border border-sky-400 my-20 bg-sky-200">
               <table>
@@ -149,7 +154,7 @@ const Submission = () => {
                 <li className="list-decimal">
                   1. All papers must be submitted in PDF or as a Microsoft Word
                   Document via Microsoft Conference Management Toolkit:
-                  <a style={{ textDecoration: 'underline' }}>
+                  <a style={{ textDecoration: 'underline', cursor: 'pointer' }}>
                     {' '}
                     https://cmt3.research.microsoft.com/ICIoT2023/Submission/Index
                   </a>

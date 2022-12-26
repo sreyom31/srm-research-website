@@ -7,22 +7,22 @@ const cdata = [
       {
         name: 'Dr. T.R. Paarivendhar ',
         desig: 'Founder Chancellor',
-        image: '../images/paarivendhar-sir.jpg',
+        image: '/images/paarivendhar-sir.jpg',
       },
       {
         name: 'Dr. P. Ravi Pachamoothoo ',
         desig: 'Pro - Chancellor (Admin)',
-        image: '../images/pachamoothoo-sir.jpg',
+        image: '/images/pachamoothoo-sir.jpg',
       },
       {
         name: 'Dr. P. Sathyanarayanan ',
         desig: 'Pro - Chancellor (Academics)',
-        image: '../images/sathya-sir.jpg',
+        image: '/images/sathya-sir.jpg',
       },
       {
         name: 'Dr. R. Shivakumar',
         desig: 'Vice President, SRMIST',
-        image: '../images/shivakumar-sir.jpg',
+        image: '/images/shivakumar-sir.jpg',
       },
     ],
   },
@@ -33,27 +33,27 @@ const cdata = [
       {
         name: 'Dr. C. Muthamizhchelvan ',
         desig: 'Vice Chancellor, SRMIST',
-        image: '../images/muthamizhchelvan-sir.jpg',
+        image: '/images/muthamizhchelvan-sir.jpg',
       },
       {
         name: 'Prof. S. Ponnusamy ',
         desig: 'Registrar, SRMIST',
-        image: '../images/ponnusamy.jpg',
+        image: '/images/ponnusamy.jpg',
       },
       {
         name: ' Dr. T.V. Gopal ',
         desig: 'Dean (CET), SRMIST',
-        image: '../images/tvgopal-sir.jpg',
+        image: '/images/tvgopal-sir.jpg',
       },
       {
         name: 'Dr. Revathy Venkatraman',
         desig: 'Professor and Chair Person, SRMIST',
-        image: '../images/revathi-mam.jpg',
+        image: '/images/revathi-mam.jpg',
       },
       {
         name: 'Dr. Bernaurdshaw Neppolian',
         desig: 'Dean, Research, SRMIST',
-        image: '../images/default.jpg',
+        image: '/images/bernaurd-sir.jpg',
       },
     ],
   },
@@ -297,22 +297,22 @@ const cdata = [
       },
     ],
   },
-  {
-    id: 6,
-    title: 'Advisory Committee',
-    members: [
-      {
-        name: 'Dr. Revathy Venkatraman ',
-        desig: 'Professor & Chair Person,School of Computing, SRMIST, KTR',
-        image: '../images/revathi-mam.jpg',
-      },
-      {
-        name: ' Dr. A Rathinam, Director',
-        desig: 'Alumni Affairs, SRMIST',
-        image: '../images/default.jpg',
-      },
-    ],
-  },
+  // {
+  //   id: 6,
+  //   title: 'Advisory Committee',
+  //   members: [
+  //     {
+  //       name: 'Dr. Revathy Venkatraman ',
+  //       desig: 'Professor & Chair Person,School of Computing, SRMIST, KTR',
+  //       image: '/images/revathi-mam.jpg',
+  //     },
+  //     {
+  //       name: ' Dr. A Rathinam, Director',
+  //       desig: 'Alumni Affairs, SRMIST',
+  //       image: '/images/default.jpg',
+  //     },
+  //   ],
+  // },
   {
     id: 7,
     title: 'Convener',
@@ -321,7 +321,7 @@ const cdata = [
         name: 'Dr.M.Pushpalatha ',
         desig:
           'Professor & Head of the Department, Computing Technologies, SRMIST, KTR',
-        image: '../images/pushpalatha-mam.jpg',
+        image: 'images/pushpalatha-mam.jpeg',
       },
     ],
   },
@@ -332,12 +332,12 @@ const cdata = [
       {
         name: 'Dr. S S Sridhar',
         desig: 'Professor, C.Tech',
-        images: '../images/default.jpg',
+        image: '/images/sridhar-sir.jpeg',
       },
       {
         name: 'Dr. Vijaya K',
         desig: 'Associate Professor, C.Tech',
-        image: '../images/vijaya-mam.jpg',
+        image: '/images/vijaya-mam.jpg',
       },
     ],
   },
@@ -348,7 +348,7 @@ const cdata = [
       {
         name: 'Dr. R. I. Minu',
         desig: 'Professor, C.Tech',
-        image: '../images/minu-mam.jpg',
+        image: '/images/minu-mam.jpeg',
       },
     ],
   },
@@ -359,42 +359,42 @@ const cdata = [
       {
         name: 'Dr. D. Malathi',
         desig: 'Professor, C.Tech',
-        images: '../images/default.jpg',
+        image: '/images/malathi.jpg',
       },
       {
         name: 'Dr. E. Poovammal',
         desig: 'Professor, C.Tech',
-        images: '../images/poovamal-mam.jpg',
+        image: '/images/poovamal-mam.jpeg',
       },
       {
         name: 'Dr. B. Amutha ',
         desig: 'Professor, C.Tech',
-        images: '../images/default.jpg',
+        image: '/images/amutha-mam.jpg',
       },
       {
         name: 'Dr. G. Niranjana ',
         desig: 'Professor, C.Tech',
-        images: '../images/default.jpg',
+        image: '/images/niranjana-mam.jpg',
       },
       {
         name: 'Dr. M. Murali',
         desig: 'Professor, C.Tech',
-        images: '../images/default.jpg',
+        image: '/images/murali-sir.jpg',
       },
       {
         name: 'Dr. A. Jeyasekar',
         desig: 'Associate Professor, C.Tech',
-        images: '../images/default.jpg',
+        image: '/images/jeyasekar-sir.jpg',
       },
       {
         name: 'Dr. B. Muruganantham',
         desig: 'Associate Professor, C.Tech',
-        images: '../images/default.jpg',
+        image: '/images/muruganantham-sir.jpg',
       },
       {
         name: 'Dr. R. S. Ponmagal',
         desig: 'Associate Professor, C.Tech',
-        images: '../images/default.jpg',
+        image: '/images/ponmagal-mam.jpg',
       },
     ],
   },

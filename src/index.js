@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {createRoot} from 'react-dom/client';
 import './index.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
@@ -14,7 +14,10 @@ import Gallery from './components/Gallery';
 import Contacts from './components/Contacts';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
 
-ReactDOM.render(
+let root = document.getElementById('root');
+root = createRoot(root);
+
+root.render(
   <Router>
     <Routes>
       <Route path="/" element={<App />} />
@@ -32,6 +35,5 @@ ReactDOM.render(
 
       <Route path="/contact" element={<Contacts />} />
     </Routes>
-  </Router>,
-  document.getElementById('root')
+  </Router>
 );

@@ -10,14 +10,15 @@ const Info = () => {
       <div className="bg-navy ">
         {Data.map((post) => {
           return (
-            <div key={true}>
+            <div key={post.id}>
               <div className=" bg-blue-200">
                 <div className="flex justify-center m-5 mb-0 p-5 ">
                   <div className="  grid grid-cols-9 gap-4  text-sm">
                     <div className="col-span-1"></div>
                     <div className="col-span-full  md:col-span-2 text-right">
+                      {/* {console.log(post.image1)} */}
                       <img
-                        src={post.image}
+                        src={post.image1}
                         width="250"
                         height="200"
                         className="rounded-md"

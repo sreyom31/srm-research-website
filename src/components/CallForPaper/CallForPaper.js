@@ -32,7 +32,7 @@ const CallForPaper = () => {
                     {item.desc.map((item) => {
                       return (
                         <div className="justify-evenly" key={item.id}>
-                          <h2 className="w-[60vw] md:w-[30vw] py-4 px-3 text-md md:text-lg">
+                          <h2 className="w-[60vw] md:w-[30vw] pb-4 px-3 text-md md:text-lg">
                             {item.name}
                           </h2>
                         </div>

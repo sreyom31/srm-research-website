@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import Navbar from '../components/Nav';
-import srmlogo from '../../src/images/srmlogo.png';
+import srmlogo from '../images/srmlogo.png';
 import ctech from '../images/CtechLogo.png';
 import soc from '../images/soc-logo.png';
 import iciot from '../images/iciot-logo.jpeg';
@@ -41,11 +41,7 @@ const Header = () => {
       <br />
       <div className="bg-[#122a58]">
         <marquee className="text-white bg-[#122a58]">
-          <a href="/">
-            {' '}
-            All papers presented in the conference will be published in reputed
-            Journals
-          </a>
+          <a href="/"> Last date of paper submission is 28th Feb 2023.</a>
           {/* <span className="ml-20">
             Last Date for Paper Submission: 28th February 2023
           </span> */}
