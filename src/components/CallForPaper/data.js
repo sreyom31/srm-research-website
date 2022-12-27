@@ -176,7 +176,7 @@ export const data = [
   //   ],
   // },
   {
-    title: 'Call For Papers',
+    title: 'Sub Themes and Tracks',
     desc: [
       {
         id: 1,

@@ -10,7 +10,7 @@ const CallForPaper = () => {
         <h1 className="overflow-hidden text-4xl pt-12 h-[15vh] font-semibold mx-auto">
           Call For Papers
         </h1>
-        <h2 className="text-lg">
+        <h2 className="text-lg text-justify">
           Original contributions from researchers describing their original,
           unpublished, research contribution which is not currently under review
           by another conference or journal and addressing state-of-the-art
@@ -18,9 +18,9 @@ const CallForPaper = () => {
           but not limited to the conference tracks.
         </h2>
         <div className="mt-4">
-          <h2 className="text-2xl text-center font-bold">
+          {/* <h2 className="text-2xl text-center font-bold">
             Conference Sub Themes and Tracks:
-          </h2>
+          </h2> */}
           <div className="flex w-[80vw] md:w-[60vw] flex-wrap justify-around">
             {data.map((item) => {
               return (
