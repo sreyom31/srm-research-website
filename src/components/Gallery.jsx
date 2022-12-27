@@ -4,9 +4,11 @@ import Header from './Header';
 import Footer from './Footer';
 
 const images = [
-  'https://www.srmist.edu.in/icramc-2022/sites/icramc-2022/files/icramc-21-banner-3.jpg',
-  'https://www.srmist.edu.in/icramc-2022/sites/icramc-2022/files/icramc-21-banner-1_0_0.jpg',
-  'https://www.srmist.edu.in/icramc-2022/sites/icramc-2022/files/icramc-21-banner-4_0.jpg',
+  '/images/DSCN2336.jpg',
+  '/images/DSCN2509.jpg',
+  '/images/DSCN2908.jpg',
+  '/images/DSCN2998.jpg',
+  '/images/DSCN3239.jpg',
 ];
 
 let count = 0;
