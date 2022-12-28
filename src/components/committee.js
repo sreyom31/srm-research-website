@@ -39,7 +39,7 @@ const committee = () => {
                     item.members.map((mem) => {
                       return (
                         <div key={mem.id} className="card">
-                          <img src={mem.image} width="200px" alt="Avatar" className="image" />
+                          <img src={mem.image} alt="Avatar" className="image" />
                           <div className="container">
                             <h4>
                               <b>{mem.name}</b>
