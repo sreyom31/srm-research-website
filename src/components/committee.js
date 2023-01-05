@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import cdata from './cdata';
 import './committee.css';
+import FlipcardComittee from './flipcardComittee';
 
 const committee = () => {
   return (
@@ -38,15 +39,12 @@ const committee = () => {
                     // item.members &&
                     item.members.map((mem) => {
                       return (
-                        <div key={mem.id} className="card">
-                          <img src={mem.image} alt="Avatar" className="image" />
-                          <div className="container">
-                            <h4>
-                              <b>{mem.name}</b>
-                            </h4>
-                            <p>{mem.desig}</p>
-                          </div>
-                        </div>
+                        <FlipcardComittee
+                          key={mem.id}
+                          image={mem.image}
+                          name={mem.name}
+                          desig={mem.desig}
+                        />
                       );
                     })
                   }
