@@ -7,16 +7,16 @@ const Registration = () => {
     <div>
       <Header />
       <div className="mt-8 w-screen h-fit">
-        <h1 className="text-4xl pt-12 mx-auto h-[15vh] font-bold text-center">
+        <h1 className="text-4xl pt-12 mx-auto font-bold text-center">
           Registration
         </h1>
-        <div className="flex ">
+        {/* <div className="flex ">
           <button className="bg-[#0284c7] text-white text-md w-fit mx-auto px-4 py-2 rounded-md">
             <a href="./form.doc" download>
               Download Registration Form
             </a>
           </button>
-        </div>
+        </div> */}
         <div className="mb-24">
           <div className="mx-auto w-[80vw] md:w-[60vw] mt-16">
             <h1 className="text-[#0284c7] text-2xl font-bold">
@@ -33,10 +33,11 @@ const Registration = () => {
             {data.map((item) => {
               return (
                 <div className="h-auto bg-white text-black" key={item.id}>
-                  <div className="w-[80vw] md:w-[60vw] text-left text-semibold p-2 border-2">
+                  <div className="flex justify-around w-[80vw] md:w-[60vw] text-semibold p-2 border-2">
                     <h2>{item.title}</h2>
+                    <h2>{item.price}</h2>
                   </div>
-                  {item.prices.map((price) => {
+                  {/* {item.prices.map((price) => {
                     return (
                       <div
                         className="flex p-2 font-normal text-left border-2"
@@ -46,7 +47,7 @@ const Registration = () => {
                         <p className="w-[40vw] md:w-[30vw]">{price.price}</p>
                       </div>
                     );
-                  })}
+                  })} */}
                 </div>
               );
             })}
