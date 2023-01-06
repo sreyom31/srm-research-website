@@ -1,0 +1,74 @@
+.card2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 20px 0;
+  width: 15vw;
+  border-radius: 10px;
+}
+
+.card__side2 {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 3px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.name2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.nameBack2 {
+  /* margin: 20px 0; */
+  font-size: 17px;
+  text-align: center;
+  color: white;
+}
+
+.head2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card__side--front2 {
+  background-color: #fff;
+}
+
+.card__side--front-12 {
+  /* background: linear-gradient(-45deg, #0284c7, #64b5f6); */
+  padding: 0 10%;
+  border: 2px solid #0284c7;
+}
+
+.card__side--back2 {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card__side--back-12 {
+  background: linear-gradient(-45deg, #0284c7, #64b5f6);
+}
+
+.card2:hover .card__side--front-12 {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.card2:hover .card__side--back2 {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}

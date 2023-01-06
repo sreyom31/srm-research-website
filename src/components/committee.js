@@ -3,7 +3,12 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import cdata from './cdata';
+import sdata from './sdata';
+import scdata from './scdata';
 import './committee.css';
+import FlipcardComittee from './flipcardComittee';
+import FlipcardSComittee from './flipcardSubComittee';
+import FlipcardSCComittee from './flipcardSubCComittee';
 
 const committee = () => {
   return (
@@ -38,15 +43,12 @@ const committee = () => {
                     // item.members &&
                     item.members.map((mem) => {
                       return (
-                        <div key={mem.id} className="card">
-                          <img src={mem.image} width="200px" alt="Avatar" className="image" />
-                          <div className="container">
-                            <h4>
-                              <b>{mem.name}</b>
-                            </h4>
-                            <p>{mem.desig}</p>
-                          </div>
-                        </div>
+                        <FlipcardComittee
+                          key={mem.id}
+                          image={mem.image}
+                          name={mem.name}
+                          desig={mem.desig}
+                        />
                       );
                     })
                   }
@@ -57,7 +59,6 @@ const committee = () => {
         })}
 
         <div className=" mb-24 mx-auto w-[80vw] md:w-[60vw] text-2x1 mt-12 md:text-lg bg-[#0284c7] text-white text-center font-bold ">
-          {/* <h1 className="w-[80vw] md:w-[60vw] p-4">Committee Members</h1> */}
           {cdata.map((item) => {
             const num = [4, 5];
             return (
@@ -80,6 +81,30 @@ const committee = () => {
                     })}
                 </div>
               )
+            );
+          })}
+        </div>
+
+        <div className="subCommHead">
+          {scdata.map((com) => {
+            return (
+              <FlipcardSCComittee
+                key={com.id}
+                committee={com.title}
+                mem={com.members}
+              />
+            );
+          })}
+        </div>
+        <div className="subCommHead">
+          {sdata.map((subcom) => {
+            return (
+              <FlipcardSComittee
+                key={subcom.id}
+                committee={subcom.title}
+                head={subcom.head}
+                mem={subcom.members}
+              />
             );
           })}
         </div>
