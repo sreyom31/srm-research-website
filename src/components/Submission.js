@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import Header from './Header';
 const Submission = () => {
@@ -13,13 +14,13 @@ const Submission = () => {
               Paper Submission
             </h1>
             <div className="flex">
-              <a
-                href="../ICIOT-template.docx"
-                download
+              <Link
+                to="/files/ICIOT-template.docx"
+                target="_blank"
                 className="p-3 m-7 px-10 font-bold bg-sky-200 text-black text-center rounded-full"
               >
                 Download Templates
-              </a>
+              </Link>
               <a
                 href="https://cmt3.research.microsoft.com/ICIoT2023"
                 target="_blank"
@@ -126,7 +127,7 @@ const Submission = () => {
                 <br />
                 <li className="list-decimal">
                   3. All papers will be checked for similarity score using
-                  TurnItIn and Plagiarism Detector.{' '}
+                  Turnitin and Plagiarism Detector.{' '}
                 </li>
                 <br />
                 <li className="list-decimal">
