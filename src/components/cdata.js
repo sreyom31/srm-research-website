@@ -81,140 +81,9 @@ const cdata = [
   //     }
   //   ],
   // },
+
   {
     id: 4,
-    title: 'National Technical Committee',
-    members: [
-      {
-        name: 'Dr. Sandra Johnson, Professor and Head, Department of Artificial Intelligence and Data Science, R.M.K. Engineering College, Chennai',
-      },
-      {
-        name: 'Dr. B. Prathusha Lakshmi, Professor and Head, Department of Artificial Intelligence and Data Science, RMK College of Engineering and Technology, Chennai.',
-      },
-      {
-        name: 'Dr. Baskar, Professor, Anna University, Chennai',
-      },
-      {
-        name: 'Dr. H. Khanna Nehemiah, Professor and Additional Director for Admission, Ramanujam Computing Centre, Anna University, Chennai.',
-      },
-      {
-        name: 'Dr. A. Kannan, Senior Professor, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore',
-      },
-      {
-        name: 'Dr. K Gunaseelan, Assistant Professor, Department of CSE, CET Campus Anna University',
-      },
-      {
-        name: 'Dr. B Janet, Assistant Professor, Department of CSE, National Institute of Technology, Tiruchirappalli',
-      },
-      {
-        name: 'Dr. S Sendhilkumar, Associate Professor, Department of CSE, CEG Campus Anna University',
-      },
-      {
-        name: 'Dr Sudip Roy, Assistant Professor, Department of CSE, Indian Institute of Technology, Roorkee',
-      },
-      {
-        name: 'Dr Alphonse, Professor, National Institute of Technology, Tiruchirappalli',
-      },
-      {
-        name: 'Dr P AnandhaKumar, Professor, Madras Institute of Technology, Chennai',
-      },
-      {
-        name: 'Dr. Anil Kumar Vuppala, Associate Professor, Department of CSE, Indian Institute of Technology, Madras',
-      },
-      {
-        name: 'Dr. M Aramuthan, Associate Professor, Department of Information Technology, Perunthalaivar Kamarajar institute of Science and TechnologyAnna University, Chennai',
-      },
-      {
-        name: 'Dr. L Arunraj, Associate Professor, Department of CSE, BSA Crescent University, Chennai',
-      },
-      {
-        name: 'Dr. M Brindha, Assistant Professor, Department of CSE, National Institute of Technology, Tiruchirappalli',
-      },
-      {
-        name: 'Dr. P Elango, Assistant Professor, Department of Information Technology, Perunthalivar Kamarajar Institute of Engineering and Technology, Karaikal',
-      },
-      {
-        name: 'Dr. E Ilavarasan, Professor, Department of CSE, Pondicherry Engineering College, Puducherry',
-      },
-      {
-        name: 'Dr L Jayakumar, Assistant Professor, Department of CSE, National Institute of Technology, Tripura',
-      },
-      {
-        name: 'Dr. John Augustine, Associate Professor, Department of CSE, Indian Institute of Technology, Chennai',
-      },
-      {
-        name: 'Dr. R Manoharan, Assistant Professor, Department of CSE, Puducherry Technological University, Puducherry',
-      },
-      {
-        name: 'Dr. M Marikannan, Assistant Professor, Department of CSE, Institute of Road and Transport Technology, Erode',
-      },
-      {
-        name: 'Dr. S Masilamani, Associate Professor, Department of CSE, IIITDM, Kancheepuram',
-      },
-      {
-        name: 'Dr. SM Ponsy R K, Associate Professor, Department of CSE, Madras Institute of Technology, Chennai',
-      },
-      {
-        name: 'Dr. Preetam Kumar, Professor, Department of Electrical Engineering, Indian Institute of Technology, Patna',
-      },
-      {
-        name: 'Dr. B Shameedha Begum, Assistant Professor, Department of CSE, National Institute of Technology, Tiruchirappalli',
-      },
-      {
-        name: 'Dr. V Shanmuganeethi, Associate Professor and Head In Charge, Department of CSE, National Institute of Technical Teachers Training and Research, Chennai',
-      },
-      {
-        name: 'Dr. E Sivasankar, Associate Professor, Department of CSE, National Institute of Technology, Tiruchirappalli',
-      },
-      {
-        name: 'Dr. S Sivasathya, Professor, Department of CSE, Pondicherry University, Puducherry',
-      },
-      {
-        name: 'Dr. P Suaramanian, Professor, Department of CSE, Saweetha University, Chennai',
-      },
-      {
-        name: 'Dr. S Surendiran, Associate Professor, Department of CSE, National Institute of Technology, Puducherry',
-      },
-      {
-        name: 'Dr. S Swayamnathan, Professor, Department of IST, Anna University, Chennai',
-      },
-      {
-        name: 'Dr. M Thotapan, Associate Professor, Department of Electronics Engineering, Indian Institute of Technology, Varanasi',
-      },
-      {
-        name: 'Dr. K K Thyagharajan , Professor & Dean, School of Computer Science and Engineering, R.M.D Engineering College, Kavaraipettai, Chennai',
-      },
-      {
-        name: 'Dr. Umarani Jayaraman, Assistant Professor, Department of CSE, Indian Institution of Information Technology,Design and Manufacturing, Kancheepuram',
-      },
-      {
-        name: 'Dr. C Valliyammai, Associate Professor, Department of CSE, Madras Institute of Technology, Chennai',
-      },
-      {
-        name: 'Dr. P Varalakshmi, Professor, Department of CSE, Madras Institute of Technology, Chennai',
-      },
-      {
-        name: 'Dr. B L Velammal, Associate Professor, Department of CSE, Anna University, Chennai',
-      },
-      {
-        name: 'Dr. K Veningston, Assistant Professor, Department of CSE, National Institute of Technology, Srinagar',
-      },
-      {
-        name: 'Dr. K Venkatesan, Assistant Professor, Department of CSE, National Institute of Technology, Puducherry',
-      },
-      {
-        name: 'Dr. R Vijaya Arjunan, Associate Professor, Department of CSE, Manipal Institute of Technology, Karnataka',
-      },
-      {
-        name: 'Dr. B Vinayaga Sundaram, Associate Professor, Department of CSE, Madras Institute of Technology, Chennai',
-      },
-      {
-        name: 'Dr. Z Zayara, Professor, Department of CSE, Pondicherry Engineering College, Puducherry',
-      },
-    ],
-  },
-  {
-    id: 5,
     title: 'International Technical Committee',
     members: [
       {
@@ -294,6 +163,138 @@ const cdata = [
       },
       {
         name: 'Dr. Vineet Batta, Doctor (Orthopaedics), Orthopaedics & Trauma Senior Clinical Fellow at Luton & Dunstable University NHS Trust',
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: 'National Technical Committee',
+    members: [
+      {
+        name: 'Dr. Baskar, Professor, Anna University, Chennai',
+      },
+      {
+        name: 'Dr. H. Khanna Nehemiah, Professor and Additional Director for Admission, Ramanujam Computing Centre, Anna University, Chennai.',
+      },
+      {
+        name: 'Dr. K Gunaseelan, Assistant Professor, Department of CSE, CET Campus Anna University',
+      },
+      {
+        name: 'Dr. S Sendhilkumar, Associate Professor, Department of CSE, CEG Campus Anna University',
+      },
+      {
+        name: 'Dr. S Swayamnathan, Professor, Department of IST, Anna University, Chennai',
+      },
+      {
+        name: 'Dr. B L Velammal, Associate Professor, Department of CSE, Anna University, Chennai',
+      },
+      {
+        name: 'Dr. M Aramuthan, Associate Professor, Department of Information Technology, Perunthalaivar Kamarajar institute of Science and Technology, Anna University, Chennai',
+      },
+      {
+        name: 'Dr. B Janet, Assistant Professor, Department of CSE, National Institute of Technology, Tiruchirappalli',
+      },
+      {
+        name: 'Dr. A. Kannan, Senior Professor, School of Computer Science and Engineering, Vellore Institute of Technology, Vellore',
+      },
+      {
+        name: 'Dr. Sandra Johnson, Professor and Head, Department of Artificial Intelligence and Data Science, R.M.K. Engineering College, Chennai',
+      },
+      {
+        name: 'Dr. B. Prathusha Lakshmi, Professor and Head, Department of Artificial Intelligence and Data Science, RMK College of Engineering and Technology, Chennai.',
+      },
+      {
+        name: 'Dr Sudip Roy, Assistant Professor, Department of CSE, Indian Institute of Technology, Roorkee',
+      },
+      {
+        name: 'Dr Alphonse, Professor, National Institute of Technology, Tiruchirappalli',
+      },
+      {
+        name: 'Dr P AnandhaKumar, Professor, Madras Institute of Technology, Chennai',
+      },
+      {
+        name: 'Dr. Anil Kumar Vuppala, Associate Professor, Department of CSE, Indian Institute of Technology, Madras',
+      },
+      {
+        name: 'Dr. L Arunraj, Associate Professor, Department of CSE, BSA Crescent University, Chennai',
+      },
+      {
+        name: 'Dr. M Brindha, Assistant Professor, Department of CSE, National Institute of Technology, Tiruchirappalli',
+      },
+      {
+        name: 'Dr. P Elango, Assistant Professor, Department of Information Technology, Perunthalivar Kamarajar Institute of Engineering and Technology, Karaikal',
+      },
+      {
+        name: 'Dr. E Ilavarasan, Professor, Department of CSE, Pondicherry Engineering College, Puducherry',
+      },
+      {
+        name: 'Dr L Jayakumar, Assistant Professor, Department of CSE, National Institute of Technology, Tripura',
+      },
+      {
+        name: 'Dr. John Augustine, Associate Professor, Department of CSE, Indian Institute of Technology, Chennai',
+      },
+      {
+        name: 'Dr. R Manoharan, Assistant Professor, Department of CSE, Puducherry Technological University, Puducherry',
+      },
+      {
+        name: 'Dr. M Marikannan, Assistant Professor, Department of CSE, Institute of Road and Transport Technology, Erode',
+      },
+      {
+        name: 'Dr. S Masilamani, Associate Professor, Department of CSE, IIITDM, Kancheepuram',
+      },
+      {
+        name: 'Dr. SM Ponsy R K, Associate Professor, Department of CSE, Madras Institute of Technology, Chennai',
+      },
+      {
+        name: 'Dr. Preetam Kumar, Professor, Department of Electrical Engineering, Indian Institute of Technology, Patna',
+      },
+      {
+        name: 'Dr. B Shameedha Begum, Assistant Professor, Department of CSE, National Institute of Technology, Tiruchirappalli',
+      },
+      {
+        name: 'Dr. V Shanmuganeethi, Associate Professor and Head In Charge, Department of CSE, National Institute of Technical Teachers Training and Research, Chennai',
+      },
+      {
+        name: 'Dr. E Sivasankar, Associate Professor, Department of CSE, National Institute of Technology, Tiruchirappalli',
+      },
+      {
+        name: 'Dr. S Sivasathya, Professor, Department of CSE, Pondicherry University, Puducherry',
+      },
+      {
+        name: 'Dr. P Suaramanian, Professor, Department of CSE, Saweetha University, Chennai',
+      },
+      {
+        name: 'Dr. S Surendiran, Associate Professor, Department of CSE, National Institute of Technology, Puducherry',
+      },
+      {
+        name: 'Dr. M Thotapan, Associate Professor, Department of Electronics Engineering, Indian Institute of Technology, Varanasi',
+      },
+      {
+        name: 'Dr. K K Thyagharajan , Professor & Dean, School of Computer Science and Engineering, R.M.D Engineering College, Kavaraipettai, Chennai',
+      },
+      {
+        name: 'Dr. Umarani Jayaraman, Assistant Professor, Department of CSE, Indian Institution of Information Technology,Design and Manufacturing, Kancheepuram',
+      },
+      {
+        name: 'Dr. C Valliyammai, Associate Professor, Department of CSE, Madras Institute of Technology, Chennai',
+      },
+      {
+        name: 'Dr. P Varalakshmi, Professor, Department of CSE, Madras Institute of Technology, Chennai',
+      },
+      {
+        name: 'Dr. K Veningston, Assistant Professor, Department of CSE, National Institute of Technology, Srinagar',
+      },
+      {
+        name: 'Dr. K Venkatesan, Assistant Professor, Department of CSE, National Institute of Technology, Puducherry',
+      },
+      {
+        name: 'Dr. R Vijaya Arjunan, Associate Professor, Department of CSE, Manipal Institute of Technology, Karnataka',
+      },
+      {
+        name: 'Dr. B Vinayaga Sundaram, Associate Professor, Department of CSE, Madras Institute of Technology, Chennai',
+      },
+      {
+        name: 'Dr. Z Zayara, Professor, Department of CSE, Pondicherry Engineering College, Puducherry',
       },
     ],
   },
