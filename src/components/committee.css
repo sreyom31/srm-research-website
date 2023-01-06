@@ -20,6 +20,20 @@
   justify-content: space-evenly;
 }
 
+.subCommHead {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 13vw;
+  justify-content: space-evenly;
+}
+
+.subCommHead {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20vw;
+  justify-content: space-evenly;
+}
+
 @media screen and (max-width: 768px) {
   .card {
     width: 30%;
