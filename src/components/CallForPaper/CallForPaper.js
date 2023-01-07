@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import Header from "../Header";
-import Footer from "../Footer";
-import { data } from "./data";
-import { CButton, CCollapse, CCard, CCardBody } from "@coreui/react";
-import "@coreui/coreui/dist/css/coreui.min.css";
+import React, { useState } from 'react';
+import Header from '../Header';
+import Footer from '../Footer';
+import { data } from './data';
+import { CButton, CCollapse, CCard, CCardBody } from '@coreui/react';
+import '@coreui/coreui/dist/css/coreui.min.css';
 const CallForPaper = () => {
   const [visible1, setVisible1] = useState(false);
   return (
@@ -34,15 +34,13 @@ const CallForPaper = () => {
                     aria-expanded={visible1}
                     aria-controls="collapseWidthExample1"
                   >
-                    {item.title}<span>&#8595;</span>
+                    {item.title}
+                    <span>&#8595;</span>
                   </CButton>
-                  <div style={{ minHeight:  "0" }}>
-                    <CCollapse
-                      id="collapseWidthExample1"
-                      visible={visible1}
-                    >
-                      <CCard  style={{width:"100%" }}>
-                        <CCardBody style={{height:"100%" }}>
+                  <div style={{ minHeight: '0' }}>
+                    <CCollapse id="collapseWidthExample1" visible={visible1}>
+                      <CCard style={{ width: '100%', height: '100%' }}>
+                        <CCardBody style={{ height: '100%' }}>
                           <div className="mt-4">
                             {item.desc.map((item) => {
                               return (
@@ -63,9 +61,8 @@ const CallForPaper = () => {
             })}
           </div>
         </div>
-        
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
