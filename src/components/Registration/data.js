@@ -29,27 +29,27 @@ const transfer = [
       {
         id: 2,
         name: 'Name of the Bank',
-        data: 'YES Bank',
+        data: 'Indian Bank',
       },
       {
         id: 3,
         name: 'Branch Name',
-        data: 'YES Bank -Rajpur Road Dehradun',
+        data: 'Srm university',
       },
       {
         id: 4,
         name: 'Complete Postal Address',
-        data: 'Ground Floor, 56, Rajpur Road, Dehradun, Uttarakhand -248001',
+        data: 'SRM UNIVERSITY, Kattankulathur, Tamil Nadu 603203',
       },
       {
         id: 5,
         name: 'Account No. of Beneficiary',
-        data: '95958777777835',
+        data: '7111751848',
       },
       {
         id: 6,
         name: 'IFSC Code',
-        data: 'YESB0000115',
+        data: 'IDIB000S181',
       },
       {
         id: 7,
