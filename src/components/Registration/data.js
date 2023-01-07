@@ -1,61 +1,18 @@
 const data = [
   {
     id: 1,
-    title: 'Indian delegates (INR)',
-    prices: [
-      {
-        name: 'Regular Author ',
-        price: 10000,
-      },
-      {
-        name: 'Student Author ',
-        price: 9000,
-      },
-      {
-        name: 'Industry Professional ',
-        price: 11000,
-      },
-      {
-        name: 'Listener (Non-Author/Co-Author/General Participants) ',
-        price: 2000,
-      },
-    ],
+    title: 'Indian Industry delegates (INR)',
+    price: '5000',
   },
   {
     id: 2,
-    title: 'International delegates (US $)',
-    prices: [
-      {
-        name: 'Regular Author ',
-        price: 350,
-      },
-      {
-        name: 'Students Author ',
-        price: 250,
-      },
-      {
-        name: '2nd paper, Author from other countries ',
-        price: 210,
-      },
-      {
-        name: 'Listener (Non-Author/Co-Author/General Participants) ',
-        price: 150,
-      },
-    ],
+    title: 'Indian Academic delegates (INR)',
+    price: '3500',
   },
   {
     id: 3,
-    title: 'Workshop',
-    prices: [
-      {
-        name: 'Registered Author ',
-        price: 'Free',
-      },
-      {
-        name: 'Non-Author/Co-Author/General Participants ',
-        price: 1000,
-      },
-    ],
+    title: 'Foreign authors (USD)',
+    price: '100',
   },
 ];
 
