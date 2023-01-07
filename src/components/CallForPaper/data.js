@@ -176,7 +176,7 @@ export const data = [
   //   ],
   // },
   {
-    title: 'Sub Themes and Tracks',
+    title: 'Click for Sub Themes and Tracks',
     desc: [
       {
         id: 1,

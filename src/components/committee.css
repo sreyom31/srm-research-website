@@ -1,4 +1,4 @@
-.card {
+.card1 {
   transition: 0.5s;
   width: 15vw;
   display: flex;
@@ -9,7 +9,7 @@
   margin: 0 5vw;
 }
 
-.card:hover {
+.card1:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   background-color: #0284c7;
   border-radius: 10px;

@@ -1,8 +1,11 @@
-import React from 'react';
-import Header from '../Header';
-import Footer from '../Footer';
-import { data } from './data';
+import React, { useState } from "react";
+import Header from "../Header";
+import Footer from "../Footer";
+import { data } from "./data";
+import { CButton, CCollapse, CCard, CCardBody } from "@coreui/react";
+import "@coreui/coreui/dist/css/coreui.min.css";
 const CallForPaper = () => {
+  const [visible1, setVisible1] = useState(false);
   return (
     <div className="">
       <Header />
@@ -17,35 +20,52 @@ const CallForPaper = () => {
           research are invited to share their work in all areas of ICIOT 2023
           but not limited to the conference tracks.
         </h2>
-        <div className="mt-4">
+        <div className="mt-4 mb-5">
           {/* <h2 className="text-2xl text-center font-bold">
             Conference Sub Themes and Tracks:
           </h2> */}
-          <div className="flex w-[80vw] md:w-[60vw] flex-wrap justify-around">
+          <div className="flex w-[60vw] md:w-[60vw] flex-wrap justify-around">
             {data.map((item) => {
               return (
                 <div className="mx-4 mt-8" key={item.id}>
-                  <h3 className="bg-[#122a58] w-[60vw] px-4 py-2 md:text-lg text-center text-white">
-                    {item.title}
-                  </h3>
-                  <div className="mt-4">
-                    {item.desc.map((item) => {
-                      return (
-                        <div className="justify-evenly" key={item.id}>
-                          <h2 className="w-[60vw] md:w-[30vw] pb-4 px-3 text-md md:text-lg">
-                            {item.name}
-                          </h2>
-                        </div>
-                      );
-                    })}
+                  <CButton
+                    className="bg-[#122a58] w-[50vw] px-4 py-2 md:text-lg text-center text-white "
+                    onClick={() => setVisible1(!visible1)}
+                    aria-expanded={visible1}
+                    aria-controls="collapseWidthExample1"
+                  >
+                    {item.title}<span>&#8595;</span>
+                  </CButton>
+                  <div style={{ minHeight:  "0" }}>
+                    <CCollapse
+                      id="collapseWidthExample1"
+                      visible={visible1}
+                    >
+                      <CCard  style={{width:"100%" }}>
+                        <CCardBody style={{height:"100%" }}>
+                          <div className="mt-4">
+                            {item.desc.map((item) => {
+                              return (
+                                <div className="justify-evenly" key={item.id}>
+                                  <ul className="w-[60vw] list-disc  md:w-[30vw] pb-4 px-3 text-md md:text-lg">
+                                    <li className="list-disc">{item.name}</li>
+                                  </ul>
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </CCardBody>
+                      </CCard>
+                    </CCollapse>
                   </div>
                 </div>
               );
             })}
           </div>
         </div>
+        
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 };
