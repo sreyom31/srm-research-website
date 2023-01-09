@@ -5,7 +5,7 @@ const cdata = [
     title: 'Patrons',
     members: [
       {
-        name: 'Dr. T.R. Paarivendhar ',
+        name: 'Dr. T.R. Paarivendhar',
         desig: 'Founder Chancellor',
         image: '/images/paarivendhar-sir.jpg',
       },
