@@ -360,7 +360,7 @@ const cdata = [
       {
         name: 'Dr. D. Malathi',
         desig: 'Professor, C.Tech',
-        image: '/images/malathi.jpg',
+        image: '/images/D.Malathi Photo.jpg',
       },
       {
         name: 'Dr. E. Poovammal',
@@ -375,7 +375,7 @@ const cdata = [
       {
         name: 'Dr. G. Niranjana ',
         desig: 'Professor, C.Tech',
-        image: '/images/niranjana-mam.jpg',
+        image: '/images/niranjana.jpeg',
       },
       {
         name: 'Dr. M. Murali',
