@@ -43,12 +43,15 @@ const committee = () => {
                     // item.members &&
                     item.members.map((mem) => {
                       return (
-                        <FlipcardComittee
-                          key={mem.id}
-                          image={mem.image}
-                          name={mem.name}
-                          desig={mem.desig}
-                        />
+                        <div key={mem.id} className="card1">
+                          <img src={mem.image} width="200px" alt="Avatar" className="image" />
+                          <div className="container">
+                            <h4>
+                              <b>{mem.name}</b>
+                            </h4>
+                            <p>{mem.desig}</p>
+                          </div>
+                        </div>
                       );
                     })
                   }
