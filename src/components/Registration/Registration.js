@@ -57,12 +57,8 @@ const Registration = () => {
           <h1 className="text-[#0284c7] text-2xl font-bold">
             Payment of Registration
           </h1>
-          <p className="text-sm md:text-lg">
-            1. Details on how to pay the registration fee through wire transfer
-            are provided to participants.
-          </p>
           <p className="text-sm md:text-lg mt-8">
-            2. Delegates/authors paying by wire transfer should use the
+            1. Delegates/authors paying by wire transfer should use the
             following account information and submit their bank transaction slip
             and other pertinent information to ICIOT 2023@gmail.com .
           </p>
