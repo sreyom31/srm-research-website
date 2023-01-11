@@ -5,7 +5,7 @@ const cdata = [
     title: 'Patrons',
     members: [
       {
-        name: 'Dr. T.R. Paarivendhar',
+        name: 'Dr. T.R. Paarivendhar ',
         desig: 'Founder Chancellor',
         image: '/images/paarivendhar-sir.jpg',
       },
@@ -90,79 +90,79 @@ const cdata = [
         name: 'Dr. Gang Li, Associate Professor, School of Information Technology, Deakin University, VIC 3125, Australia',
       },
       {
-        name: 'S Rinesh, Jigjiga University, Ethiopia',
+        name: 'S. Rinesh, Jigjiga University, Ethiopia',
       },
       {
         name: 'Mahalakshmi V, Jazan University, Saudi Arabia',
       },
       {
-        name: 'Dr Venkadachalam, Scientific Researcher, University of Hradec Kralove Czech Republic',
+        name: 'Dr. K. Venkatachalam, Scientific Researcher, University of Hradec Kralove, Czech Republic',
       },
       {
-        name: 'Dr. Tamizharasan P S, Assistant Professor, Birla Institute of Technology & Science (BITS), Pilani, Dubai Campus, Dubai International Academic City, P O Box 345055, Dubai, UAE',
+        name: 'Dr. Tamizharasan PS, Assistant Professor, Birla Institute of Technology & Science (BITS), Pilani, Dubai Campus, Dubai International Academic City, P O Box 345055, Dubai, UAE',
       },
       {
-        name: 'Dr.Lipo Wang, Professor, Nanyang Technological University,Singapore',
+        name: 'Dr. Lipo Wang, Professor, Nanyang Technological University, Singapore',
       },
       {
-        name: 'Dr.Oliver Faust, Professor, Sheffield Hallam University,City Campus, Howard Street, Sheffield, S1 1WB, United Kingdom',
+        name: 'Dr. Oliver Faust, Professor, Sheffield Hallam University, City Campus, Howard Street, Sheffield, S1 1WB, United Kingdom',
       },
       {
-        name: 'Dr.Shuai Li, Associate Pofessor, Swansea University,Fabian Way, Swansea, UK',
+        name: 'Dr. Shuai Li, Associate Pofessor, Swansea University,Fabian Way, Swansea, UK',
       },
       {
-        name: 'Dr.Stephen Olatunde Olabiyisi, Professor, LadokeAkintola University of Technology,Ogbomoso, Nigeria',
+        name: 'Dr. Stephen Olatunde Olabiyisi, Professor, Ladoke Akintola University of Technology,Ogbomoso, Nigeria',
       },
       {
-        name: 'MR. Elanttamil A/L Maruth, Lecturer, Department of Malaysian Languages & Applied Linguistics, Faculty of Languages & Linguistics, University of Malaya',
+        name: 'Mr. Elanttamil A/L Maruth, Lecturer, Department of Malaysian Languages & Applied Linguistics, Faculty of Languages & Linguistics, University of Malaya',
       },
       {
-        name: 'DrInge Dhamanthi, Assistant Professor, Department of Health Poicy and adminstartion, University Airlangga,Indonesia',
+        name: 'Dr. Inge Dhamanthi, Assistant Professor, Department of Health Poicy and adminstartion, University Airlangga, Indonesia',
       },
       {
-        name: 'Dr Fitri Yakub, Senior Lecture, Department of Electronic system Engineering, Unversiti Tecknologi Malaysia',
+        name: 'Dr. Fitri Yakub, Senior Lecturer, Department of Electronic System Engineering, Unversiti Tecknologi Malaysia, Malaysia',
       },
       {
-        name: 'Dr.Mohammed A. AlZain , Associate Professor, College of Computers and Information Technology,Taif University, Saudi Arabia',
+        name: 'Dr. Mohammed A. AlZain , Associate Professor, College of Computers and Information Technology, Taif University, Saudi Arabia',
       },
       {
-        name: 'Dr.Anand Nayyar, Professor, Dyu Tan University,Vietnam',
+        name: 'Dr. Anand Nayyar, Professor, Dyu Tan University, Vietnam',
       },
       {
-        name: 'Dr. Mariofanna Milanova, Professor, University of Arkansas at Little Rock,United States of America',
+        name: 'Dr. Mariofanna Milanova, Professor, University of Arkansas at Little Rock, United States of America',
       },
       {
-        name: 'Byungun Yoon, Professor, Department of Industrial and Systems Engineering,Dongguk University, Seoul, South Korea',
+        name: 'Dr. Byungun Yoon, Professor, Department of Industrial and Systems Engineering, Dongguk University, Seoul, South Korea',
       },
       {
-        name: 'Dr.Mehedi Masud , Professor, College of Computers and Information Technology,Taif University, Saudi Arabia',
+        name: 'Dr. Mehedi Masud, Professor, College of Computers and Information Technology, Taif University, Saudi Arabia',
       },
       {
-        name: 'Dr. Tommaso Pecorella, Associate professor, Department of Information Engineering, University of Florence',
+        name: 'Dr. Tommaso Pecorella, Associate professor, Department of Information Engineering, University of Florence, Italy',
       },
       {
-        name: 'Hussain A, Universiti Utara Malaysia, Malaysia',
+        name: 'Dr. Hussain A, Universiti Utara Malaysia, Malaysia',
       },
       {
         name: 'Dr. Muhammad Irfan, Professor, GIKI University, Pakistan',
       },
       {
-        name: 'Dr Gang Li, Professor, Deakin University, Australia',
+        name: 'Dr. Gang Li, Professor, Deakin University, Australia',
       },
       {
-        name: 'Dr. Thingaran Perumal, Professor, Department of Computer Science,Faculty of Computer Science and Information Technology ,Universiti Putra Malaysia ,43400 ,Serdang, Selangor Darul Ehsan, MALAYSIA',
+        name: 'Dr. Thingaran Perumal, Professor, Department of Computer Science, Faculty of Computer Science and Information Technology, Universiti Putra Malaysia, 43400, Serdang, Selangor Darul Ehsan, Malaysia',
       },
       {
-        name: 'Dr. Sakkaravarthi Ramanathan, Professor, Vanier College/Cegep De Gaspesie,Canada',
+        name: 'Dr. Sakkaravarthi Ramanathan, Professor, Vanier College/Cegep De Gaspesie, Canada',
       },
       {
-        name: 'Dr.Xavier N Fernando, Professor, Ryerson University,Canada',
+        name: 'Dr. Xavier N Fernando, Professor, Ryerson University, Canada',
       },
       {
-        name: 'Meenalosini Vimal Cruz, Allen E. Paulson Georgia Southern University, Georgia',
+        name: 'Dr. Meenalosini Vimal Cruz, Allen E. Paulson Georgia Southern University, Georgia',
       },
       {
-        name: 'Dr. Vineet Batta, Doctor (Orthopaedics), Orthopaedics & Trauma Senior Clinical Fellow at Luton & Dunstable University NHS Trust',
+        name: 'Dr. Vineet Batta, Doctor (Orthopaedics), Orthopaedics & Trauma Senior Clinical Fellow at Luton & Dunstable University NHS Trust, United Kingdom',
       },
     ],
   },
@@ -183,7 +183,7 @@ const cdata = [
         name: 'Dr. S Sendhilkumar, Associate Professor, Department of CSE, CEG Campus Anna University',
       },
       {
-        name: 'Dr. S Swayamnathan, Professor, Department of IST, Anna University, Chennai',
+        name: 'Dr. S. Swamynathan, Professor, Department of IST, Anna University, Chennai',
       },
       {
         name: 'Dr. B L Velammal, Associate Professor, Department of CSE, Anna University, Chennai',
