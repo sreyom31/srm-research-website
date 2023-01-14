@@ -23,10 +23,7 @@ const Info = () => {
                       />
                       <div className="text-center items-center">
                         <p className="pt-2 text-justify text-lg font-bold">
-                          {post.title}
-                        </p>
-                        <p className="pt-2 text-black font-bold text-justify text-lg ">
-                          PROFILE
+                          {post.title1}
                         </p>
                       </div>
                     </div>

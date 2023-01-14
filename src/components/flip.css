@@ -4,14 +4,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  height: 20vw;
   margin: 20px 0;
-  width: 15vw;
+  width: 20vw;
   border-radius: 10px;
 }
 
 .card__side {
-  height: 30vh;
+  height: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,7 +28,7 @@
 }
 
 .name {
-  margin: 20px 0;
+  margin-top: 20px;
   font-size: 20px;
   text-align: center;
 }
@@ -69,4 +69,55 @@
 .card:hover .card__side--back {
   -webkit-transform: rotateY(0);
   transform: rotateY(0);
+}
+
+.image {
+  border-radius: 10px;
+  height: 60%;
+  width: 65%;
+}
+
+@media screen and (max-width: 1080px) {
+  .name {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .nameBack {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .desig {
+    text-align: center;
+    font-size: 13px;
+    color: aliceblue;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 30vw;
+    height: 25vh;
+  }
+
+  .card__side {
+    height: 25vh;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .name {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .card {
+    width: 60vw;
+    height: 30vh;
+  }
+
+  .card__side {
+    height: 30vh;
+  }
 }
