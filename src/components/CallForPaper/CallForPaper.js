@@ -1,11 +1,10 @@
-import React, { useState } from "react";
-import Header from "../Header";
-import Footer from "../Footer";
-import { data } from "./data";
-import { CButton, CCollapse, CCard, CCardBody } from "@coreui/react";
-import "@coreui/coreui/dist/css/coreui.min.css";
+import React from 'react';
+import Header from '../Header';
+import Footer from '../Footer';
+import { data } from './data';
+
 const CallForPaper = () => {
-  const [visible1, setVisible1] = useState(false);
+  // const [visible1, setVisible1] = useState(false);
   return (
     <div className="">
       <Header />
@@ -27,45 +26,52 @@ const CallForPaper = () => {
           <div className="flex w-[60vw] md:w-[60vw] flex-wrap justify-around">
             {data.map((item) => {
               return (
-                <div className="mx-4 mt-8" key={item.id}>
-                  <CButton
-                    className="bg-[#122a58] w-[50vw] px-4 py-2 md:text-lg text-center text-white "
-                    onClick={() => setVisible1(!visible1)}
-                    aria-expanded={visible1}
-                    aria-controls="collapseWidthExample1"
+                <div
+                  className="mx-4 mt-8  w-[50vw]  md:text-lg text-center text-white collapse collapse-arrow border border-base-300  rounded-box"
+                  key={item.id}
+                >
+                  <input type="checkbox" />
+                  <div
+                    className="collapse-title text-xl font-medium px-4  bg-[#122a58]"
+                    // className="  "
                   >
-                    {item.title}<span>&#8595;</span>
-                  </CButton>
-                  <div style={{ minHeight:  "0" }}>
+                    {item.title}
+                  </div>
+                  <div className="collapse-content bg-white text-black">
+                    <div className="mt-4">
+                      {item.desc.map((item) => {
+                        return (
+                          <div
+                            className="justify-evenly text-left"
+                            key={item.id}
+                          >
+                            <ul className="w-[60vw] list-disc  md:w-[30vw] pb-4 px-3 text-md md:text-lg">
+                              <li>{item.name}</li>
+                            </ul>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                  {/* <div style={{ minHeight:  "0" }}>
                     <CCollapse
                       id="collapseWidthExample1"
                       visible={visible1}
                     >
                       <CCard  style={{width:"100%" }}>
                         <CCardBody style={{height:"100%" }}>
-                          <div className="mt-4">
-                            {item.desc.map((item) => {
-                              return (
-                                <div className="justify-evenly" key={item.id}>
-                                  <ul className="w-[60vw] list-disc  md:w-[30vw] pb-4 px-3 text-md md:text-lg">
-                                    <li className="list-disc">{item.name}</li>
-                                  </ul>
-                                </div>
-                              );
-                            })}
-                          </div>
+                         
                         </CCardBody>
                       </CCard>
                     </CCollapse>
-                  </div>
+                  </div> */}
                 </div>
               );
             })}
           </div>
         </div>
-        
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

@@ -8,5 +8,5 @@ module.exports = {
       decimal: 'decimal',},
     extend: {},
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
