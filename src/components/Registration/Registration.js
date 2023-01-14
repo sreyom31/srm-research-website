@@ -24,18 +24,18 @@ const Registration = () => {
             </h1>
           </div>
           <div className="flex flex-wrap justify-around mx-auto w-[80vw] md:w-[60vw] mt-12 text-sm md:text-lg bg-[#0284c7] text-white text-center font-bold ">
-            <h1 className="w-[40vw] md:w-[30vw] border-2 border-sky-500 p-2">
+            <h1 className="w-1/2 md:w-1/2 border-2 border-sky-500 p-2">
               Category
             </h1>
-            <h1 className="w-[40vw] md:w-[30vw] border-2 border-sky-500 p-2">
+            <h1 className="w-1/2 md:w-1/2 border-2 border-sky-500 p-2">
               Registration price
             </h1>
             {data.map((item) => {
               return (
                 <div className="h-auto bg-white text-black" key={item.id}>
                   <div className="flex justify-around w-[80vw] md:w-[60vw] text-semibold p-2 border-2">
-                    <h2>{item.title}</h2>
-                    <h2>{item.price}</h2>
+                    <h2 className="w-1/2">{item.title}</h2>
+                    <h2 className="w-1/2">{item.price}</h2>
                   </div>
                   {/* {item.prices.map((price) => {
                     return (
@@ -57,12 +57,8 @@ const Registration = () => {
           <h1 className="text-[#0284c7] text-2xl font-bold">
             Payment of Registration
           </h1>
-          <p className="text-sm md:text-lg">
-            1. Details on how to pay the registration fee through wire transfer
-            are provided to participants.
-          </p>
           <p className="text-sm md:text-lg mt-8">
-            2. Delegates/authors paying by wire transfer should use the
+            1. Delegates/authors paying by wire transfer should use the
             following account information and submit their bank transaction slip
             and other pertinent information to ICIOT 2023@gmail.com .
           </p>
