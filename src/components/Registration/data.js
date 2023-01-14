@@ -1,18 +1,23 @@
 const data = [
   {
     id: 1,
-    title: 'Indian Industry delegates (INR)',
-    price: '5000',
+    title: 'Indian Authors (INR)',
+    price: '7000',
   },
   {
     id: 2,
-    title: 'Indian Academic delegates (INR)',
+    title: 'Indian Student/Research Scholar (INR)',
     price: '3500',
   },
   {
     id: 3,
     title: 'Foreign authors (USD)',
-    price: '100',
+    price: '300',
+  },
+  {
+    id: 4,
+    title: 'Co-Authors / Participants (INR)',
+    price: '1000',
   },
 ];
 
