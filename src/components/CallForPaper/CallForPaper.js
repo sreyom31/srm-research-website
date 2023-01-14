@@ -25,19 +25,10 @@ const CallForPaper = () => {
             {data.map((item) => {
               return (
                 <div className="mx-4 mt-8" key={item.id}>
-                  <CButton
-                    className="bg-[#122a58] w-[50vw] px-4 py-2 md:text-lg text-center text-white "
-                    onClick={() => setVisible1(!visible1)}
-                    aria-expanded={visible1}
-                    aria-controls="collapseWidthExample1"
-                  >
+                  
                     {item.title}
                     <span>&#8595;</span>
-                  </CButton>
                   <div style={{ minHeight: '0' }}>
-                    <CCollapse id="collapseWidthExample1" visible={visible1}>
-                      <CCard style={{ width: '100%', height: '100%' }}>
-                        <CCardBody style={{ height: '100%' }}>
                           <div className="mt-4">
                             {item.desc.map((item) => {
                               return (
@@ -49,9 +40,6 @@ const CallForPaper = () => {
                               );
                             })}
                           </div>
-                        </CCardBody>
-                      </CCard>
-                    </CCollapse>
                   </div>
                 </div>
               );
