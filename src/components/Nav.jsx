@@ -56,6 +56,13 @@ function Nav() {
                   </Link>
 
                   <Link
+                    to="/registration"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Registration
+                  </Link>
+
+                  <Link
                     to="/speakers"
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
@@ -68,13 +75,6 @@ function Nav() {
                   >
                     Gallery
                   </Link>
-
-                  {/* <Link
-                    to="/registration"
-                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                  >
-                    Registration
-                  </Link> */}
 
                   {/* <Link
                                         to="#"
@@ -180,24 +180,10 @@ function Nav() {
                 </a>
 
                 <a
-                  href="#"
+                  href="/conferences"
                   className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Conferences
-                </a>
-
-                <a
-                  href="/speakers"
-                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Speakers
-                </a>
-
-                <a
-                  href="/gallery"
-                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                >
-                  Gallery
+                  Reports
                 </a>
 
                 <a
@@ -213,6 +199,20 @@ function Nav() {
                 >
                   Registration
                 </a>
+                <a
+                  href="/speakers"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Speakers
+                </a>
+
+                <a
+                  href="/gallery"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Gallery
+                </a>
+
 
                 {/* <a
                                     href="#"
@@ -223,7 +223,7 @@ function Nav() {
 
                 <a
                   href="/contact"
-                  className="text-gray-300 hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Contact
                 </a>
