@@ -1,9 +1,11 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import cdata from './cdata';
+import sdata from './sdata';
 import './committee.css';
+import FlipcardComittee from './flipcardComittee';
+import FlipcardLComittee from './flipcardSubLComittee';
 
 const committee = () => {
   return (
@@ -33,37 +35,40 @@ const committee = () => {
                   {item.title}
                 </h1>
                 <div className="containerCard">
-                  {
-                    // item &&
-                    // item.members &&
-                    item.members.map((mem) => {
-                      return (
-                        <div key={mem.id} className="card1">
-                          <img src={mem.image} width="200px" alt="Avatar" className="image" />
-                          <div className="container">
-                            <h4>
-                              <b>{mem.name}</b>
-                            </h4>
-                            <p>{mem.desig}</p>
-                          </div>
-                        </div>
-                      );
-                    })
-                  }
+                  {item.members.map((mem) => {
+                    return (
+                      <FlipcardComittee
+                        key={mem.id}
+                        image={mem.image}
+                        name={mem.name}
+                        desig={mem.desig}
+                      />
+                    );
+                  })}
                 </div>
               </div>
             )
           );
         })}
-
+        <div className="subCommHead">
+          {sdata.map((subcom) => {
+            return (
+              <FlipcardLComittee
+                key={subcom.id}
+                committee={subcom.title}
+                head={subcom.head}
+                mem={subcom.members}
+              />
+            );
+          })}
+        </div>
         <div className=" mb-24 mx-auto w-[80vw] md:w-[60vw] text-2x1 mt-12 md:text-lg bg-[#0284c7] text-white text-center font-bold ">
-          {/* <h1 className="w-[80vw] md:w-[60vw] p-4">Committee Members</h1> */}
           {cdata.map((item) => {
             const num = [4, 5];
             return (
               num.includes(item.id) && (
                 <div className="bg-white text-black" key={item.id}>
-                  <div className="w-[80vw] bg-[#0284c7] md:w-[60vw] text-left text-semibold p-2 border-2">
+                  <div className="mt-5 w-[80vw] bg-[#0284c7] md:w-[60vw] text-left text-semibold p-2">
                     <h1 className="m-0 text-white text-2xl">{item.title}</h1>
                   </div>
                   {item &&
@@ -71,7 +76,7 @@ const committee = () => {
                     item.members.map((member) => {
                       return (
                         <div
-                          className="flex p-2 font-normal text-left border-2"
+                          className="flex p-2 font-normal text-left"
                           key={member.name}
                         >
                           <p className="w-[40vw] md:w-[60vw]">{member.name}</p>

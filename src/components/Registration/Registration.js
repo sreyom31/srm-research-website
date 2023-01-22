@@ -7,16 +7,16 @@ const Registration = () => {
     <div>
       <Header />
       <div className="mt-8 w-screen h-fit">
-        <h1 className="text-4xl pt-12 mx-auto h-[15vh] font-bold text-center">
+        <h1 className="text-4xl pt-12 mx-auto font-bold text-center">
           Registration
         </h1>
-        <div className="flex ">
+        {/* <div className="flex ">
           <button className="bg-[#0284c7] text-white text-md w-fit mx-auto px-4 py-2 rounded-md">
             <a href="./form.doc" download>
               Download Registration Form
             </a>
           </button>
-        </div>
+        </div> */}
         <div className="mb-24">
           <div className="mx-auto w-[80vw] md:w-[60vw] mt-16">
             <h1 className="text-[#0284c7] text-2xl font-bold">
@@ -24,19 +24,20 @@ const Registration = () => {
             </h1>
           </div>
           <div className="flex flex-wrap justify-around mx-auto w-[80vw] md:w-[60vw] mt-12 text-sm md:text-lg bg-[#0284c7] text-white text-center font-bold ">
-            <h1 className="w-[40vw] md:w-[30vw] border-2 border-sky-500 p-2">
+            <h1 className="w-1/2 md:w-1/2 border-2 border-sky-500 p-2">
               Category
             </h1>
-            <h1 className="w-[40vw] md:w-[30vw] border-2 border-sky-500 p-2">
+            <h1 className="w-1/2 md:w-1/2 border-2 border-sky-500 p-2">
               Registration price
             </h1>
             {data.map((item) => {
               return (
                 <div className="h-auto bg-white text-black" key={item.id}>
-                  <div className="w-[80vw] md:w-[60vw] text-left text-semibold p-2 border-2">
-                    <h2>{item.title}</h2>
+                  <div className="flex justify-around w-[80vw] md:w-[60vw] text-semibold p-2 border-2">
+                    <h2 className="w-1/2">{item.title}</h2>
+                    <h2 className="w-1/2">{item.price}</h2>
                   </div>
-                  {item.prices.map((price) => {
+                  {/* {item.prices.map((price) => {
                     return (
                       <div
                         className="flex p-2 font-normal text-left border-2"
@@ -46,7 +47,7 @@ const Registration = () => {
                         <p className="w-[40vw] md:w-[30vw]">{price.price}</p>
                       </div>
                     );
-                  })}
+                  })} */}
                 </div>
               );
             })}
@@ -56,12 +57,8 @@ const Registration = () => {
           <h1 className="text-[#0284c7] text-2xl font-bold">
             Payment of Registration
           </h1>
-          <p className="text-sm md:text-lg">
-            1. Details on how to pay the registration fee through wire transfer
-            are provided to participants.
-          </p>
           <p className="text-sm md:text-lg mt-8">
-            2. Delegates/authors paying by wire transfer should use the
+            1. Delegates/authors paying by wire transfer should use the
             following account information and submit their bank transaction slip
             and other pertinent information to ICIOT 2023@gmail.com .
           </p>
