@@ -12,7 +12,7 @@ const committee = () => {
         <Header></Header>
       </div>
 
-      <div className="mb-24">
+      <div className="mb-24 bg-[#9FEAF5]">
         <div className="mx-auto w-[80vw] md:w-[60vw] mt-16">
           <h1
             style={{ fontSize: '40px' }}

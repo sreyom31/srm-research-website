@@ -37,7 +37,7 @@ function Homepage() {
       </div> */}
       <div className="bg-local bg-cover   bg-no-repeat overflow-auto bg-[url('https://iciot.github.io/img/intro-bg.jpg')]">
         <div className="bg-gradient-to-r from-black">
-          <div className="About ">
+          <div className="About text-white ">
             <div>
               <h2 className="aboutext ">About ICIoT 2023 Conference</h2>
               <br />
@@ -69,7 +69,7 @@ function Homepage() {
               </p>
             </div>
           </div>
-          <div className="About">
+          <div className="About text-white ">
             <div>
               <h2 className="aboutext">
                 About SRM Institute of Science and Technology
