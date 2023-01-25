@@ -1,7 +1,11 @@
-/* eslint-disable prettier/prettier */
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
 import cdata from './cdata';
 import sdata from './sdata';
 import './committee.css';
+import FlipcardComittee from './flipcardComittee';
+import FlipcardLComittee from './flipcardSubLComittee';
 
 const committee = () => {
   return (

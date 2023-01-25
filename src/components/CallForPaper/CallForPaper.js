@@ -1,3 +1,6 @@
+import React from 'react';
+import Header from '../Header';
+import Footer from '../Footer';
 import { data } from './data';
 import { CButton, CCollapse, CCard, CCardBody } from '@coreui/react';
 import '@coreui/coreui/dist/css/coreui.min.css';
