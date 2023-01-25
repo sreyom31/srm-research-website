@@ -6,7 +6,7 @@ const Submission = () => {
   return (
     <div>
       <Header />
-      <div className="bg-white">
+      <div className=" bg-[#9FEAF5]">
         <div className=" grid grid-cols-4 gap-4">
           <div className=" md:col-span-1"></div>
           <div className="col-span-full rounded mx-5 bg-white items-center md:col-span-2 flex flex-col justify-center">

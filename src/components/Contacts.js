@@ -7,7 +7,7 @@ function Contacts() {
   return (
     <>
       <Header />
-      <div>
+      <div className="bg-[#9FEAF5]">
         <p className="mt-8 text-center text-4xl font-bold">Contact us</p>
         <div className="contact-container text-center">
           <p className="pb-2 text-3xl font-semibold">For Enquiry:</p>
