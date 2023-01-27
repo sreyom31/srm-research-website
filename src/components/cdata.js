@@ -84,7 +84,7 @@ const cdata = [
 
   {
     id: 4,
-    title: 'International Technical Committee',
+    title: 'Technical Committee',
     members: [
       {
         name: 'Dr. Gang Li, Associate Professor, School of Information Technology, Deakin University, VIC 3125, Australia',
@@ -164,12 +164,6 @@ const cdata = [
       {
         name: 'Dr. Vineet Batta, Doctor (Orthopaedics), Orthopaedics & Trauma Senior Clinical Fellow at Luton & Dunstable University NHS Trust, United Kingdom',
       },
-    ],
-  },
-  {
-    id: 5,
-    title: 'National Technical Committee',
-    members: [
       {
         name: 'Dr. Baskar, Professor, Anna University, Chennai',
       },
