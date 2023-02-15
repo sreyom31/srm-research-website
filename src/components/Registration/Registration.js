@@ -24,10 +24,13 @@ const Registration = () => {
             </h1>
           </div>
           <div className="flex flex-wrap justify-around mx-auto w-[80vw] md:w-[60vw] mt-12 text-sm md:text-lg bg-[#0284c7] text-white text-center font-bold ">
-            <h1 className="w-1/2 md:w-1/2 border-2 border-sky-500 p-2">
+            <h1 className="w-1/3 md:w-1/3 border-2 border-sky-500 p-2">
               Category
             </h1>
-            <h1 className="w-1/2 md:w-1/2 border-2 border-sky-500 p-2">
+            <h1 className="w-1/3 md:w-1/3 border-2 border-sky-500 p-2">
+              Early Bird Registration
+            </h1>
+            <h1 className="w-1/3 md:w-1/3 border-2 border-sky-500 p-2">
               Registration price
             </h1>
             {data.map((item) => {
@@ -35,6 +38,7 @@ const Registration = () => {
                 <div className="h-auto bg-white text-black" key={item.id}>
                   <div className="flex justify-around w-[80vw] md:w-[60vw] text-semibold p-2 border-2">
                     <h2 className="w-1/2">{item.title}</h2>
+                    <h2 className="w-1/2">{item.early}</h2>
                     <h2 className="w-1/2">{item.price}</h2>
                   </div>
                   {/* {item.prices.map((price) => {
