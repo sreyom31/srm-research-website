@@ -32,18 +32,6 @@ const sdata = [
         id: 3,
         name: 'Dr.M.Suresh Anand',
       },
-      {
-        id: 4,
-        name: 'Dr. D. Vinod',
-      },
-      {
-        id: 5,
-        name: 'Dr. K. Anitha',
-      },
-      {
-        id: 6,
-        name: 'Dr. P. Nancy',
-      },
     ],
   },
   {
@@ -59,14 +47,6 @@ const sdata = [
         id: 2,
         name: 'Mr. Saminathan S',
       },
-      {
-        id: 3,
-        name: 'Dr. Shiny Irene D',
-      },
-      {
-        id: 4,
-        name: 'Dr. Pretty Diana Cyril C',
-      },
     ],
   },
   {
@@ -76,7 +56,7 @@ const sdata = [
     members: [
       {
         id: 1,
-        name: 'Dr. Maria Nancy.A',
+        name: 'Dr. A. Maria Nancy',
       },
       {
         id: 2,
@@ -92,7 +72,7 @@ const sdata = [
       },
       {
         id: 5,
-        name: 'Dr. Sandhia . G.K',
+        name: 'Dr. G.K. Sandhia',
       },
       {
         id: 6,
@@ -104,7 +84,7 @@ const sdata = [
       },
       {
         id: 8,
-        name: 'Ms. Lavanya.R',
+        name: 'Mrs. S. Kanmani',
       },
       {
         id: 9,
@@ -132,6 +112,10 @@ const sdata = [
       {
         id: 4,
         name: 'Dr.Sindhu C',
+      },
+      {
+        id: 5,
+        name: 'Dr. S. Sivakumar',
       },
     ],
   },
@@ -231,19 +215,19 @@ const sdata = [
       },
       {
         id: 2,
-        name: 'Mrs. M.Rajalakshmi',
-      },
-      {
-        id: 3,
         name: 'Mrs.P. Renukadevi',
       },
       {
-        id: 4,
+        id: 3,
         name: 'Mrs.R. Brinda',
       },
       {
+        id: 4,
+        name: 'Dr. K. Alice',
+      },
+      {
         id: 5,
-        name: 'Dr. Nithya',
+        name: 'Dr. P. Saranya',
       },
     ],
   },
@@ -264,10 +248,6 @@ const sdata = [
         id: 3,
         name: 'Ms.Vaidehi',
       },
-      {
-        id: 4,
-        name: 'Mrs.S.Kiruthiga Devi',
-      },
     ],
   },
   {
@@ -277,15 +257,7 @@ const sdata = [
     members: [
       {
         id: 1,
-        name: 'Dr. Sri Kumar',
-      },
-      {
-        id: 2,
-        name: 'Dr. Jagadeesan',
-      },
-      {
-        id: 3,
-        name: 'Dr. S. Nithya',
+        name: 'Dr. Sree Kumar',
       },
     ],
   },
@@ -320,7 +292,7 @@ const sdata = [
       },
       {
         id: 7,
-        name: 'Dr Lavanya R',
+        name: 'Dr. S. Ramesh',
       },
       {
         id: 8,
@@ -351,7 +323,7 @@ const sdata = [
       },
       {
         id: 2,
-        name: 'Dr.P.Saravanan',
+        name: 'Dr. S. Nagadevi',
       },
       {
         id: 3,
@@ -360,6 +332,14 @@ const sdata = [
       {
         id: 4,
         name: 'Dr.M.Kowsigan',
+      },
+      {
+        id: 5,
+        name: 'Ms. M. Ranjani',
+      },
+      {
+        id: 5,
+        name: 'Dr. U. V. Anbazhagu',
       },
     ],
   },
@@ -398,10 +378,6 @@ const sdata = [
       },
       {
         id: 8,
-        name: 'Dr.G.Padmapriya',
-      },
-      {
-        id: 9,
         name: 'Dr.A.Devipriya',
       },
     ],
@@ -413,26 +389,18 @@ const sdata = [
     members: [
       {
         id: 1,
-        name: 'Dr. Shiny Irene',
-      },
-      {
-        id: 2,
         name: 'Mr. Arul Prakash',
       },
       {
-        id: 3,
+        id: 2,
         name: 'Dr. Anbarasi',
       },
       {
-        id: 4,
+        id: 3,
         name: 'Dr.Balamurugan',
       },
       {
-        id: 5,
-        name: 'Dr.Prakash B',
-      },
-      {
-        id: 6,
+        id: 4,
         name: 'Dr. M.Suganya',
       },
     ],
@@ -452,14 +420,10 @@ const sdata = [
       },
       {
         id: 3,
-        name: 'Dr. P.Velmurugan',
-      },
-      {
-        id: 4,
         name: 'Dr.V.Bibin Christopher',
       },
       {
-        id: 5,
+        id: 4,
         name: 'Dr.C.Ashok kumar',
       },
     ],
@@ -500,6 +464,10 @@ const sdata = [
         id: 1,
         name: 'Mr. S. Iniyan',
       },
+      {
+        id: 1,
+        name: 'Dr. R. Srinivasan',
+      },
     ],
   },
   {
@@ -509,35 +477,46 @@ const sdata = [
     members: [
       {
         id: 1,
-        name: 'Dr.K. Deeba',
-      },
-      {
-        id: 2,
         name: 'Dr. Pretty Cyril Diana',
       },
       {
-        id: 3,
+        id: 2,
         name: 'Dr. D. Shiny Irene',
       },
       {
-        id: 4,
+        id: 3,
         name: 'Dr. K. Anitha',
       },
       {
-        id: 5,
+        id: 4,
         name: 'Dr. P. Nancy',
       },
       {
-        id: 6,
+        id: 5,
         name: 'Dr. R. Anto Arockia Rosaline',
       },
       {
-        id: 7,
+        id: 6,
         name: 'Dr. G. Padmapriya',
       },
       {
-        id: 8,
+        id: 7,
         name: 'Dr. D. Vinod',
+      },
+    ],
+  },
+  {
+    id: 20,
+    title: 'Culturals Committee',
+    head: 'Dr.K. Deeba',
+    members: [
+      {
+        id: 1,
+        name: 'Mrs.S.Kiruthiga Devi',
+      },
+      {
+        id: 2,
+        name: 'Dr. Jagadeesan',
       },
     ],
   },
