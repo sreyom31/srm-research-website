@@ -84,7 +84,7 @@ const cdata = [
 
   {
     id: 4,
-    title: 'International Technical Committee',
+    title: 'Technical Committee',
     members: [
       {
         name: 'Dr. Gang Li, Associate Professor, School of Information Technology, Deakin University, VIC 3125, Australia',
@@ -164,12 +164,6 @@ const cdata = [
       {
         name: 'Dr. Vineet Batta, Doctor (Orthopaedics), Orthopaedics & Trauma Senior Clinical Fellow at Luton & Dunstable University NHS Trust, United Kingdom',
       },
-    ],
-  },
-  {
-    id: 5,
-    title: 'National Technical Committee',
-    members: [
       {
         name: 'Dr. Baskar, Professor, Anna University, Chennai',
       },
@@ -294,7 +288,7 @@ const cdata = [
         name: 'Dr. B Vinayaga Sundaram, Associate Professor, Department of CSE, Madras Institute of Technology, Chennai',
       },
       {
-        name: 'Dr. Z Zayara, Professor, Department of CSE, Pondicherry Engineering College, Puducherry',
+        name: 'Dr. G Zayaraz, Professor, Department of CSE, Pondicherry Engineering College, Puducherry',
       },
     ],
   },
@@ -373,14 +367,14 @@ const cdata = [
         image: '/images/amutha-mam.jpg',
       },
       {
-        name: 'Dr. G. Niranjana ',
-        desig: 'Professor, C.Tech',
-        image: '/images/niranjana.jpeg',
-      },
-      {
         name: 'Dr. M. Murali',
         desig: 'Professor, C.Tech',
         image: '/images/murali-sir.jpg',
+      },
+      {
+        name: 'Dr. G. Niranjana ',
+        desig: 'Professor, C.Tech',
+        image: '/images/niranjana.jpeg',
       },
       {
         name: 'Dr. A. Jeyasekar',
