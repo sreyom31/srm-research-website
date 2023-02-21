@@ -9,7 +9,7 @@ const Info = () => {
     <>
       <Header />
       <div className="info-cont bg-blue-200">
-        <h1 className="speakerHead">Speakers</h1>
+        <h1 className="speakerHead ">Speakers</h1>
         <div className="speakersCont">
           {Data.map((post) => {
             return (
