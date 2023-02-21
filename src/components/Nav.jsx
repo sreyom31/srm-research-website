@@ -45,7 +45,7 @@ function Nav() {
                     to="/conferences"
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Reports
+                   Previous Conferences
                   </Link>
 
                   <Link
