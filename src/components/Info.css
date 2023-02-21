@@ -1,0 +1,43 @@
+.speakerHead {
+  font-size: 40px;
+  font-weight: 560;
+  color: brown;
+  text-align: center;
+}
+
+.speakersCont {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 0;
+  row-gap: 50px;
+}
+
+.speaker {
+  background: linear-gradient(-45deg, #0284c7, #64b5f6);
+  width: 20vw;
+  height: 45vh;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 8px;
+}
+
+.speaker img {
+  width: 13vw;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.speakerName {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.speakerInfo {
+  font-size: 15px;
+}
