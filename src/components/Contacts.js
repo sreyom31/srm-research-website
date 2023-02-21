@@ -30,8 +30,8 @@ function Contacts() {
               <p className="pb-2 text-2xl ">Kattankulathur</p>
               <p className="pb-2 text-2xl ">Chennai-603203</p>
               <p className="pb-2 text-2xl ">
-                <a href="mailto:minur@srmist.edu.in">
-                  Email: minur@srmist.edu.in
+                <a href="mailto:malathid@srmist.edu.in">
+                  Email: malathid@srmist.edu.in
                 </a>
               </p>
               <p className="pb-2 text-2xl ">Whatsapp No: +91 94425 54055</p>
@@ -49,8 +49,8 @@ function Contacts() {
               <p className="pb-2 text-2xl ">Kattankulathur</p>
               <p className="pb-2 text-2xl ">Chennai-603203</p>
               <p className="pb-2 text-2xl ">
-                <a href="mailto:minur@srmist.edu.in">
-                  Email: minur@srmist.edu.in
+                <a href="mailto:alicek@srmist.edu.in">
+                  Email: alicek@srmist.edu.in
                 </a>
               </p>
               <p className="pb-2 text-2xl ">Whatsapp No: +91 : 98408 51919</p>

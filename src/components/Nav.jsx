@@ -183,7 +183,7 @@ function Nav() {
                   href="/conferences"
                   className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
+                  Previous Conferences 
                 </a>
 
                 <a
