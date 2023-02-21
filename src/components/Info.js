@@ -51,7 +51,6 @@ const Info = () => {
                   <h1 className="speakerName">{post.title1}</h1>
                   <p className="speakerInfo">{post.info1}</p>
                   <p className="speakerInfo">{post.info2}</p>
-                  <p className="speakerInfo">{post.info3}</p>
                 </div>
               </div>
             );
