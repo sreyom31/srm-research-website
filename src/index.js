@@ -13,6 +13,7 @@ import Committee from './components/committee';
 import Gallery from './components/Gallery';
 import Contacts from './components/Contacts';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
+import Publication from './components/Publication';
 
 let root = document.getElementById('root');
 root = createRoot(root);
@@ -25,6 +26,8 @@ root.render(
 
       <Route path="/committee" element={<Committee />} />
       <Route path="/submission" element={<Submission />} />
+
+      <Route path="/publication" element={<Publication />} />
 
       <Route path="/conferences" element={<UpcomingEvents />} />
       <Route path="/gallery" element={<Gallery />} />
