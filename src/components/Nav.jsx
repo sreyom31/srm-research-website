@@ -54,6 +54,12 @@ function Nav() {
                   >
                     Submission
                   </Link>
+                  <Link
+                    to="/publication"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Publication
+                  </Link>
 
                   <Link
                     to="/registration"
