@@ -17,11 +17,11 @@ const Header = () => {
       </div>
       <br />
       <div className="container-fluid text-center">
-        <div className="w-17/20 mx-auto font-bold">
-          <p className="h-18 text-2xl text-red-900">
-            International Conference on Internet of Things
+        <div className="w-17/20 mx-auto px-[40rem] font-bold">
+          <p className="text-4xl text-red-900" style={{"lineHeight": ""}}>
+            4th International Conference on Internet of Things
           </p>
-          <h1 className="h-15 pt-5 pb-5 text-3xl text-red-900">ICIoT 2023</h1>
+          <h1 className="pt-5 pb-5 text-5xl text-red-900">ICIoT 2023</h1>
           <div className="font-serif text-2xl text-black">
             26 - 28 April 2023
           </div>

@@ -37,7 +37,7 @@ const Submission = () => {
                 </tr>
                 <tr>
                   <td>Paper Submission Deadline</td>
-                  <td>28th Feb 2023</td>
+                  <td>10th March 2023</td>
                 </tr>
                 <tr>
                   <td>Notification of Acceptance</td>
