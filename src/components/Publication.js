@@ -93,7 +93,7 @@ const Publication = () => {
               <br />
             </ol>
             <img
-              src="../images/springer.jpeg"
+              src="../images/springer1.jpeg"
               className="p-4 mb-4"
               alt="springer CCIS"
             ></img>
