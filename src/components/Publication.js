@@ -93,7 +93,7 @@ const Publication = () => {
               <br />
             </ol>
             <img
-              src="../images/springer.png"
+              src="../images/springer.jpeg"
               className="p-4 mb-4"
               alt="springer CCIS"
             ></img>
@@ -126,7 +126,7 @@ const Publication = () => {
               </li>
             </ol>
             <img
-              src="../images/AIP.png"
+              src="../images/AIP.jpeg"
               className="p-4 mb-4"
               alt="AIP Publishing"
             ></img>
