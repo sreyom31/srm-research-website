@@ -198,6 +198,12 @@ function Nav() {
                 >
                   Submission
                 </a>
+                <a
+                  href="/publication"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                 Publications 
+                </a>
 
                 <a
                   href="/registration"

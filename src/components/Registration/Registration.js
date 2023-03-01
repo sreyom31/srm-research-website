@@ -28,7 +28,7 @@ const Registration = () => {
               Category
             </h1>
             <h1 className="w-1/3 md:w-1/3 border-2 border-sky-500 p-2">
-              Early Bird Registration
+              Early Bird Registration - closes by 10/3/2023
             </h1>
             <h1 className="w-1/3 md:w-1/3 border-2 border-sky-500 p-2">
               Registration price
