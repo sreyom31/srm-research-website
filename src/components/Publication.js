@@ -134,20 +134,20 @@ const Publication = () => {
               Indexing Logo
             </li>
 
-            <div className="flex flex-col p-8">
+            <div className="flex p-8">
               <div className="flex flex-row">
                 <div>
                   <img
                     src="/images/wos.jpeg"
                     alt="wos"
-                    className="border-2 black basis-1/2"
+                    // className="border-2 black basis-1/2"
                   ></img>
                 </div>
                 <div>
                   <img
                     src="/images/scopus.png"
                     alt="scopus"
-                    className="border-2 black basis-1/2"
+                    // className="border-2 black basis-1/2"
                   ></img>
                 </div>
               </div>
@@ -156,14 +156,14 @@ const Publication = () => {
                   <img
                     src="/images/googleScholar.png"
                     alt="googleScholar"
-                    className="border-2 black"
+                    // className="border-2 black"
                   ></img>
                 </div>
                 <div>
                   <img
                     src="/images/compendex.png"
                     alt="compendex"
-                    className="border-2 black"
+                    // className="border-2 black"
                   ></img>
                 </div>
               </div>
@@ -172,14 +172,14 @@ const Publication = () => {
                   <img
                     src="/images/dblp.png"
                     alt="dblp"
-                    className="border-2 black"
+                    // className="border-2 black"
                   ></img>
                 </div>
                 <div>
                   <img
                     src="/images/math.jpeg"
                     alt="MathSciNet"
-                    className="border-2 black"
+                    // className="border-2 black"
                   ></img>
                 </div>
               </div>
