@@ -56,6 +56,13 @@ const Registration = () => {
               );
             })}
           </div>
+          <div className="text-left mx-auto w-[80vw] md:w-[60vw]">
+            <p>
+              <span className="font-bold">*</span> For Non -SRM author Extra
+              Rs.3000/- is applicable for APC, depending upon the quality of the
+              paper
+            </p>
+          </div>
         </div>
         <div className="mx-auto w-[80vw] md:w-[60vw] mb-12">
           <h1 className="text-[#0284c7] text-2xl font-bold">
