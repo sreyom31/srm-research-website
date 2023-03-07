@@ -5,6 +5,8 @@ import srmlogo from '../images/srmlogo.png';
 import ctech from '../images/CtechLogo.png';
 import soc from '../images/soc-logo.png';
 import iciot from '../images/iciot-logo.jpeg';
+import springer from '../images/springer.jpeg';
+import aip from '../images/AIP.jpeg';
 
 const Header = () => {
   return (
@@ -16,27 +18,35 @@ const Header = () => {
         <img src={iciot} className="w-[15%] pt-2"></img>
       </div>
       <br />
-      <div className="container-fluid text-center">
-        <div className="w-17/20 mx-auto font-bold">
-          <p className="text-3xl my-4 text-red-900" style={{"lineHeight": ""}}>
-            4th International Conference on Internet of Things
-          </p>
-          <h1 className="pt-5 pb-5 text-5xl text-red-900">ICIoT 2023</h1>
-          <div className="font-serif text-2xl text-black">
-            26 - 28 April 2023
-          </div>
-          <h5 className="h-10 text-center text-red-900 text-xl font-medium">
-            SRM Institute of Science and Technology, Kattankulathur, Chennai, India
-          </h5>
-          {/* <h4 className="text-center title text-blue-500 text-xl">
-            <p>
-              <a href="/">
-                All accepted papers will be published in Procedia Computer
-                Science Journal, Elsevier
-              </a>
+     <div className='flex flex-row justify-between'>
+
+        <div className='flex justify-center translate-y-20'><img src={springer} className="w-[40%] h-[30%]"></img></div>
+
+        <div className="container-fluid text-center">
+          <div className="w-17/20 mx-auto font-bold">
+            <p className="text-3xl text-red-900" style={{"lineHeight": ""}}>
+              4th International Conference on Internet of Things
             </p>
-          </h4> */}
+            <h1 className="pt-5 pb-5 text-5xl text-red-900">ICIoT 2023</h1>
+            <div className="font-serif text-2xl text-black">
+              26 - 28 April 2023
+            </div>
+            <h5 className="text-center text-red-900 text-xl font-medium">
+              SRM Institute of Science and Technology, Kattankalathur, Chennai, India
+            </h5>
+            {/* <h4 className="text-center title text-blue-500 text-xl">
+              <p>
+                <a href="/">
+                  All accepted papers will be published in Procedia Computer
+                  Science Journal, Elsevier
+                </a>
+              </p>
+            </h4> */}
+          </div>
         </div>
+
+        <div className='flex justify-center translate-y-20'><img src={aip} className="w-[40%] h-[30%]"></img> </div>
+
       </div>
       <br />
       <div className="bg-[#122a58]">
