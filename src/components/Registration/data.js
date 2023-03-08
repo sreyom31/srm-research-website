@@ -33,7 +33,7 @@ const transfer = [
       {
         id: 1,
         name: 'Name of Beneficiary',
-        data: 'ICIOT 2023 CONFERENCE',
+        data: 'Computer Science and Engg Association',
       },
       {
         id: 2,
@@ -43,7 +43,7 @@ const transfer = [
       {
         id: 3,
         name: 'Branch Name',
-        data: 'Srm university',
+        data: 'SRM University',
       },
       {
         id: 4,
@@ -58,13 +58,9 @@ const transfer = [
       {
         id: 6,
         name: 'IFSC Code',
-        data: 'IDIB000S181',
+        data: 'IDIBS181',
       },
-      {
-        id: 7,
-        name: 'Name of Beneficiary',
-        data: 'ICIOT 2023 CONFERENCE',
-      },
+
       { id: 8, name: 'Type of Account', data: 'Savings' },
     ],
   },
