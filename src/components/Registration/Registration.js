@@ -71,7 +71,7 @@ const Registration = () => {
           <p className="text-sm md:text-lg mt-8">
             1. Delegates/authors paying by wire transfer should use the
             following account information and submit their bank transaction slip
-            and other pertinent information to iciotctech@srmist.edu.in .
+            and other pertinent information to iciotctech@gmail.com .
           </p>
         </div>
         <div className="w-[80vw] mx-auto md:w-[60vw] mb-24">
