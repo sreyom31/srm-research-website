@@ -92,6 +92,13 @@ const Registration = () => {
             delegate could request for the account details through mail. The
             mail ID to which the request has to be sent is iciotctech@gmail.com
           </p>
+          <p className="text-sm md:text-lg mt-4">
+            For any registration-related queries, please contact: <br />
+            <span>Dr. P. Madhavan - 9865856533</span> <br />
+            <span>Dr. J. Ramaprabha - 9790765573</span>
+            <br />
+            <span>Mrs G. Malarselvi - 9884707533</span>
+          </p>
         </div>
         {/* <div className="w-[80vw] mx-auto md:w-[60vw] mb-24">
           {transfer.map((item) => {
