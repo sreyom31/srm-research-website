@@ -19,8 +19,8 @@ const data = [
   },
   {
     id: 4,
-    title: 'Co-Authors / Participants (INR)',
-    early: 'NIL',
+    title: 'Delegates (INR)',
+    early: 'Not Applicable',
     price: '1000',
   },
 ];

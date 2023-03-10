@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
-import { data, transfer } from './data';
+import { data } from './data';
 const Registration = () => {
   return (
     <div>
@@ -28,10 +28,10 @@ const Registration = () => {
               Category
             </h1>
             <h1 className="w-1/3 md:w-1/3 border-2 border-sky-500 p-2">
-              Early Bird Registration - closes by 10/3/2023
+              Early Bird Registration - closes by 12/3/2023
             </h1>
             <h1 className="w-1/3 md:w-1/3 border-2 border-sky-500 p-2">
-              Registration price
+              Registration Amount
             </h1>
             {data.map((item) => {
               return (
@@ -58,13 +58,16 @@ const Registration = () => {
           </div>
           <div className="text-left mx-auto w-[80vw] md:w-[60vw]">
             <p>
-              <span className="font-bold">*</span> For Non -SRM author Extra
-              Rs.3000/- is applicable for APC, depending upon the quality of the
-              paper
+              <span className="font-bold">*</span>{' '}
+              <span className="text-red-600">
+                {' '}
+                For Non -SRM author Extra Rs.3000/- is applicable for APC,
+                depending upon the quality of the paper{' '}
+              </span>
             </p>
           </div>
         </div>
-        <div className="mx-auto w-[80vw] md:w-[60vw] mb-12">
+        {/* <div className="mx-auto w-[80vw] md:w-[60vw] mb-12">
           <h1 className="text-[#0284c7] text-2xl font-bold">
             Payment of Registration
           </h1>
@@ -73,8 +76,24 @@ const Registration = () => {
             following account information and submit their bank transaction slip
             and other pertinent information to iciotctech@gmail.com .
           </p>
+        </div> */}
+        <div className="mx-auto w-[80vw] md:w-[60vw] mb-12">
+          <h1 className="text-[#0284c7] text-2xl font-bold">
+            Registration Details
+          </h1>
+          <p className="text-sm md:text-lg mt-4">
+            Authors whose paper has been selected for presentation will be
+            communicated with the details for making online payment. They need
+            to register for the conference by providing appropriate details in
+            the form that would be communicated through mail.
+          </p>
+          <p className="text-sm md:text-lg mt-4">
+            Anyone who wishes to register for attending the conference as a
+            delegate could request for the account details through mail. The
+            mail ID to which the request has to be sent is iciotctech@gmail.com
+          </p>
         </div>
-        <div className="w-[80vw] mx-auto md:w-[60vw] mb-24">
+        {/* <div className="w-[80vw] mx-auto md:w-[60vw] mb-24">
           {transfer.map((item) => {
             return (
               <div className="mt-12" key={item.id}>
@@ -95,7 +114,7 @@ const Registration = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>
