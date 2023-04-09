@@ -406,6 +406,29 @@ const sdata = [
     ],
   },
   {
+    id: 21,
+    title: 'Seating Arrangment Committee',
+    head: 'Dr. Dorathi Jeyaseeli',
+    members: [
+      {
+        id: 1,
+        name: 'Dr. S. Pradeep',
+      },
+      {
+        id: 2,
+        name: 'Dr. T. Senthil Kumar ',
+      },
+      {
+        id: 3,
+        name: 'Dr. MK Vidhyalakshmi',
+      },
+      {
+        id: 4,
+        name: 'Dr. Nalini',
+      },
+    ],
+  },
+  {
     id: 16,
     title: 'Travel arrangements Committee ',
     head: 'Dr. J. Selvin Paul Peter',

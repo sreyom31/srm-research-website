@@ -10,7 +10,9 @@ function Contacts() {
       <div className="bg-[#9FEAF5]">
         <p className="mt-8  text-center text-4xl font-bold">Contact us</p>
         <p className="pb-2 text-3xl mt-8 text-center font-bold">
-          <a href="mailto:iciotctech@gmail.com">Email: iciotctech@gmail.com</a>
+          <a href="mailto:iciot.2023@srmist.edu.in">
+            Email: iciot.2023@srmist.edu.in
+          </a>
         </p>
         <div className="flex text-center justify-center ">
           <div className="bg-[#fff] rounded-md p-5 justify-center contact-container text-center">

@@ -74,7 +74,7 @@ const Registration = () => {
           <p className="text-sm md:text-lg mt-8">
             1. Delegates/authors paying by wire transfer should use the
             following account information and submit their bank transaction slip
-            and other pertinent information to iciotctech@gmail.com .
+            and other pertinent information to iciot.2023@srmist.edu.in .
           </p>
         </div> */}
         <div className="mx-auto w-[80vw] md:w-[60vw] mb-12">
@@ -90,7 +90,8 @@ const Registration = () => {
           <p className="text-sm md:text-lg mt-4">
             Anyone who wishes to register for attending the conference as a
             delegate could request for the account details through mail. The
-            mail ID to which the request has to be sent is iciotctech@gmail.com
+            mail ID to which the request has to be sent is
+            iciot.2023@srmist.edu.in
           </p>
           <p className="text-sm md:text-lg mt-4">
             For any registration-related queries, please contact: <br />
