@@ -7,6 +7,7 @@ import soc from '../images/soc-logo.png';
 import iciot from '../images/iciot-logo.jpeg';
 import springer from '../images/springer.jpeg';
 import aip from '../images/AIP.jpeg';
+import ranking from '../images/ranking.png';
 
 const Header = () => {
   return (
@@ -46,8 +47,10 @@ const Header = () => {
         </div>
 
         <div className='flex justify-center translate-y-20'><img src={aip} className="w-[40%] h-[30%]"></img> </div>
-
+        
       </div>
+      <div className='flex justify-center pt-5'><img src={ranking} className="w-[40%] h-[30%]"></img> </div>
+
       <br />
       <div className="bg-[#122a58]">
         <marquee className="text-white bg-[#122a58]">

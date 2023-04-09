@@ -54,5 +54,12 @@
     "image1": "/images/fitri-sir.jpg",
     "info1": "Senior Lecturer",
     "info2": "MJIIT, Malaysia"
+  },
+  {
+    "id": 9,
+    "title1": "Emeritus, Dr. Ling Tok",
+    "image1": "/images/lingtw.jpg",
+    "info1": "Professor",
+    "info2": "National University of Singapore "
   }
 ]

@@ -2,10 +2,10 @@ import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 import { data } from './data';
-import { CButton, CCollapse, CCard, CCardBody } from '@coreui/react';
-import '@coreui/coreui/dist/css/coreui.min.css';
+// import { CButton, CCollapse, CCard, CCardBody } from '@coreui/react';
+// import '@coreui/coreui/dist/css/coreui.min.css';
 const CallForPaper = () => {
-  const [visible1, setVisible1] = useState(false);
+  // const [visible1, setVisible1] = useState(false);
   return (
     <div className="">
       <Header />
@@ -28,21 +28,20 @@ const CallForPaper = () => {
             {data.map((item) => {
               return (
                 <div className="mx-4 mt-8" key={item.id}>
-                  
-                    {item.title}
-                    <span>&#8595;</span>
+                  {item.title}
+                  <span>&#8595;</span>
                   <div style={{ minHeight: '0' }}>
-                          <div className="mt-4">
-                            {item.desc.map((item) => {
-                              return (
-                                <div className="justify-evenly" key={item.id}>
-                                  <ul className="w-[60vw] list-disc  md:w-[30vw] pb-4 px-3 text-md md:text-lg">
-                                    <li className="list-disc">{item.name}</li>
-                                  </ul>
-                                </div>
-                              );
-                            })}
+                    <div className="mt-4">
+                      {item.desc.map((item) => {
+                        return (
+                          <div className="justify-evenly" key={item.id}>
+                            <ul className="w-[60vw] list-disc  md:w-[30vw] pb-4 px-3 text-md md:text-lg">
+                              <li className="list-disc">{item.name}</li>
+                            </ul>
                           </div>
+                        );
+                      })}
+                    </div>
                   </div>
                 </div>
               );
