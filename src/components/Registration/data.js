@@ -2,21 +2,25 @@ const data = [
   {
     id: 1,
     title: 'Indian Authors (INR)',
+    early: '5000',
     price: '7000',
   },
   {
     id: 2,
     title: 'Indian Student/Research Scholar (INR)',
-    price: '3500',
+    early: '3500',
+    price: '5000',
   },
   {
     id: 3,
     title: 'Foreign authors (USD)',
+    early: '150',
     price: '300',
   },
   {
     id: 4,
-    title: 'Co-Authors / Participants (INR)',
+    title: 'Delegates (INR)',
+    early: 'Not Applicable',
     price: '1000',
   },
 ];
@@ -29,7 +33,7 @@ const transfer = [
       {
         id: 1,
         name: 'Name of Beneficiary',
-        data: 'ICIOT 2023 CONFERENCE',
+        data: 'Computer Science and Engg Association',
       },
       {
         id: 2,
@@ -39,7 +43,7 @@ const transfer = [
       {
         id: 3,
         name: 'Branch Name',
-        data: 'Srm university',
+        data: 'SRM University',
       },
       {
         id: 4,
@@ -54,13 +58,9 @@ const transfer = [
       {
         id: 6,
         name: 'IFSC Code',
-        data: 'IDIB000S181',
+        data: 'IDIBS181',
       },
-      {
-        id: 7,
-        name: 'Name of Beneficiary',
-        data: 'ICIOT 2023 CONFERENCE',
-      },
+
       { id: 8, name: 'Type of Account', data: 'Savings' },
     ],
   },

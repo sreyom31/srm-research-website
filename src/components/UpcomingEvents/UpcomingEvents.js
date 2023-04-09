@@ -20,12 +20,21 @@ const UpcomingEvents = () => {
           </div>
         </div>
         <div className="w-screen h-fit mt-16 md:mt-24 px-2 md:px-[15vw]">
+          <div className="text-center">
+            {' '}
+            <a
+              href="https://link.springer.com/book/9783031284748#book-header"
+              style={{ textDecoration: 'underline' }}
+            >
+              Previous Conference Paper Publication Link
+            </a>
+          </div>
           <div className="mt-5 flex flex-wrap justify-center ">
             {data.map((item) => {
               return (
                 <a key={item.id}>
                   <button
-                    className={`p-2 px-8 mx-2 text-sm md:p-4 md:px-12 md:mx-4 min-w-fit mt-4 lg:mt-0 text-white bg-[#ff3600] hover:bg-slate-400`}
+                    className={`p-2 px-8 mx-2 text-sm md:p-4 md:px-12 md:mx-4 min-w-fit mt-4 lg:mt-0 text-white bg-[#0284c7] hover:bg-slate-400`}
                     onClick={() => {
                       window.open(item.url);
                     }}

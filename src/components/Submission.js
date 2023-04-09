@@ -37,7 +37,7 @@ const Submission = () => {
                 </tr>
                 <tr>
                   <td>Paper Submission Deadline</td>
-                  <td>28th Feb 2023</td>
+                  <td>10th March 2023</td>
                 </tr>
                 <tr>
                   <td>Notification of Acceptance</td>
@@ -114,7 +114,7 @@ const Submission = () => {
                 </li>
                 <br />
               </ol>
-              <li className="font-bold px-5  text-lg">PUBLISHING POLICY</li>
+              {/* <li className="font-bold px-5  text-lg">PUBLISHING POLICY</li>
               <ol className="list-decimal list-outside text-justify p-5">
                 <li className="list-decimal">
                   1. Double-Blind review process will be followed for reviewing
@@ -149,7 +149,7 @@ const Submission = () => {
                   submission.
                 </li>
                 <br />
-              </ol>
+              </ol> */}
               <li className="font-bold px-5  text-lg">PAPER SUBMISSION</li>
               <ol className="list-decimal list-outside text-justify p-5">
                 <li className="list-decimal">

@@ -1,5 +1,6 @@
 import React from 'react';
 // import Prof from '../Prof.png';
+import './Info.css';
 import Data from '../data.json';
 import Header from './Header';
 import Footer from './Footer';
@@ -7,11 +8,13 @@ const Info = () => {
   return (
     <>
       <Header />
-      <div className="bg-navy ">
-        {Data.map((post) => {
-          return (
-            <div key={post.id}>
-              <div className=" bg-blue-200">
+      <div className="info-cont bg-blue-200">
+        <h1 className="speakerHead ">Speakers</h1>
+        <div className="speakersCont">
+          {Data.map((post) => {
+            return (
+              <div key={post.id}>
+                {/* <div className=" bg-blue-200">
                 <div className="flex justify-center m-5 mb-0 p-5 ">
                   <div className="  grid grid-cols-9 gap-4  text-sm">
                     <div className="col-span-1"></div>
@@ -41,10 +44,19 @@ const Info = () => {
                     <div className="col-span-1"></div>
                   </div>
                 </div>
+              </div> */}
+
+                <div className="speaker">
+                  <img src={post.image1} alt="" />
+                  <h1 className="speakerName">{post.title1}</h1>
+                  <p className="speakerInfo">{post.info1}</p>
+                  <p className="speakerInfo">{post.info2}</p>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
+
         <Footer />
       </div>
     </>

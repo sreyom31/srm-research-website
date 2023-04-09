@@ -45,7 +45,7 @@ function Nav() {
                     to="/conferences"
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                    Reports
+                   Previous Conferences
                   </Link>
 
                   <Link
@@ -53,6 +53,12 @@ function Nav() {
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Submission
+                  </Link>
+                  <Link
+                    to="/publication"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Publication
                   </Link>
 
                   <Link
@@ -183,7 +189,7 @@ function Nav() {
                   href="/conferences"
                   className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Reports
+                  Previous Conferences 
                 </a>
 
                 <a
@@ -191,6 +197,12 @@ function Nav() {
                   className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Submission
+                </a>
+                <a
+                  href="/publication"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                 Publications 
                 </a>
 
                 <a
