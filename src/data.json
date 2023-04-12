@@ -1,5 +1,12 @@
 [
   {
+    "id": 9,
+    "title1": "Emeritus, Dr. Ling Tok",
+    "image1": "/images/lingtw.jpg",
+    "info1": "Professor",
+    "info2": "National University of Singapore "
+  },
+  {
     "id": 1,
     "title1": "Dato’ Dr Shamala Subramaniam",
     "image1": "/images/shamala-mam.png",
