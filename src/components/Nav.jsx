@@ -12,7 +12,7 @@ function Nav() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="hidden md:block">
-                <div className="ml-10 flex items-baseline space-x-4">
+                <div className="ml-10 flex items-baseline space-x-3">
                   <Link
                     to="/home"
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -45,7 +45,7 @@ function Nav() {
                     to="/conferences"
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
-                   Previous Conferences
+                    Previous Conferences
                   </Link>
 
                   <Link
@@ -59,6 +59,12 @@ function Nav() {
                     className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                   >
                     Publication
+                  </Link>
+                  <Link
+                    to="/schedule"
+                    className="text-white hover:bg-[#0589b3] hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  >
+                    Schedule
                   </Link>
 
                   <Link
@@ -189,7 +195,7 @@ function Nav() {
                   href="/conferences"
                   className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                  Previous Conferences 
+                  Previous Conferences
                 </a>
 
                 <a
@@ -202,7 +208,13 @@ function Nav() {
                   href="/publication"
                   className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
-                 Publications 
+                  Publications
+                </a>
+                <a
+                  href="/schedule"
+                  className="text-white hover:bg-blue-400 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                >
+                  Schedule
                 </a>
 
                 <a
@@ -224,7 +236,6 @@ function Nav() {
                 >
                   Gallery
                 </a>
-
 
                 {/* <a
                                     href="#"

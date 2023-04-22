@@ -61,5 +61,33 @@
     "image1": "/images/fitri-sir.jpg",
     "info1": "Senior Lecturer",
     "info2": "MJIIT, Malaysia"
+  },
+  {
+    "id": 9,
+    "title1": "Senkathir Selvan Suriaprakasam",
+    "image1": "/images/selvan-tcs.jpeg",
+    "info1": "",
+    "info2": "TCS"
+  },
+  {
+    "id": 10,
+    "title1": "Karthikeyan",
+    "image1": "/images/default.jpg",
+    "info1": "",
+    "info2": "Logitech"
+  },
+  {
+    "id": 11,
+    "title1": "Aravind Ramachandran",
+    "image1": "/images/aravind-janatics.png",
+    "info1": "Senior Manager",
+    "info2": "Janatics"
+  },
+  {
+    "id": 12,
+    "title1": "Pradheep Kumar",
+    "image1": "/images/default.jpg",
+    "info1": "Associate Professor",
+    "info2": "BITS"
   }
 ]
