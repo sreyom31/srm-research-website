@@ -229,6 +229,22 @@ const sdata = [
         id: 5,
         name: 'Dr. P. Saranya',
       },
+      {
+        id: 5,
+        name: 'Ms.Saranya VS',
+      },
+      {
+        id: 6,
+        name: 'Dr.M.Vidhyalakshmi',
+      },
+      {
+        id: 7,
+        name: 'Dr.S.Ashwini',
+      },
+      {
+        id: 8,
+        name: 'Dr.K.M. Umamaheswari',
+      },
     ],
   },
   {

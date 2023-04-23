@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import {createRoot} from 'react-dom/client';
+import { createRoot } from 'react-dom/client';
 import './index.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
@@ -14,6 +14,7 @@ import Gallery from './components/Gallery';
 import Contacts from './components/Contacts';
 import UpcomingEvents from './components/UpcomingEvents/UpcomingEvents';
 import Publication from './components/Publication';
+import Schedule from './components/Schedule';
 
 let root = document.getElementById('root');
 root = createRoot(root);
@@ -28,6 +29,7 @@ root.render(
       <Route path="/submission" element={<Submission />} />
 
       <Route path="/publication" element={<Publication />} />
+      <Route path="/schedule" element={<Schedule />} />
 
       <Route path="/conferences" element={<UpcomingEvents />} />
       <Route path="/gallery" element={<Gallery />} />
