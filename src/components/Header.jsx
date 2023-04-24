@@ -61,7 +61,7 @@ const Header = () => {
         <marquee className="text-white bg-[#122a58]">
           <a href="/">
             {' '}
-            Check the schedule for the conference from schedule tab.
+            Internal registrations(SRMIST) has been closed.
           </a>
           {/* <span className="ml-20">
             Last Date for Paper Submission: 28th February 2023
