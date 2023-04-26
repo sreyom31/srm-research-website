@@ -9,7 +9,7 @@ const Schedule = () => {
       <div className="scheduleInfo">
         <p>You can download the schedule from this link - </p>
         <a
-          href="https://drive.google.com/file/d/10Ex315ZMKtnrlYM_WXjtI625GezstvWC/view?usp=sharing"
+          href="https://drive.google.com/file/d/1x4jMSVRGMLWkJfoKqOSKclp7BW3dohWY/view?usp=sharing"
           download
         >
           <button className="schedule-btn">Download</button>
